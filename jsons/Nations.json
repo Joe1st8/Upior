@@ -1,8 +1,8 @@
 [
 	{
-		"name": "Upiór",
+		"name": "Upióriç",
 		"leaderName": "Dragovid",
-		"adjective": ["upióric"],
+		"adjective": ["upiórid"],
 		"startBias": ["Avoid [Desert]","Avoid [Snow]","Hill"],
 		"preferredVictoryType": "Domination",
 		
