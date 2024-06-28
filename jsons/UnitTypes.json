@@ -1,12 +1,12 @@
 [
     // Land
-	      {
+	{
         "name": "Civilian",
         "movementType": "Land"
         },
-	      {
-        "name": "Civilian Water",
-        "movementType": "Water"
-		// costs 1500 in BNW
-	      }
+      	{  
+	"name": "Upiór",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs","[+50]% Strength <upon entering a new era>"]
+	},
 ]
