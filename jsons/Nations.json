@@ -15,22 +15,22 @@
 		"introduction": "Why do you disturb us?",
 		
 		"neutralHello": "Why am I disturbed?",
-		"neutralLetsHearIt": ["Get on with it, then.","What do you say?","Speak!"],
+		"neutralLetsHearIt": ["Get on with it, then.","You were addressing me?","Speak!"],
 		"neutralNo": ["No.","Am I supposed to answer this?","I refuse."],
 		"neutralYes": ["That will suffice, I suppose.","Well then, let's see you get to it.","Deal concluded, you may be on your way."],
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["This is an insult!","*deadly glare*.","Begone!"],
-		"hateYes": ["Fine.","You're lucky I'm not thirsty for more... this time.","Very well..."],
+		"hateHello": "What do you want?!",
+		"hateLetsHearIt": ["Speak!","What did you say?","Don't waste my time!"],
+		"hateNo": ["This is an insult!","*deadly glare*.","Begone, before I feed you to my thralls!"],
+		"hateYes": ["Fine.","You're lucky I'm not thirsty for more... this time. Now leave!","*hissss*   ...I... ...accept..."],
 		
-		"afterPeace": "We are happy to inform you that we spared your lives... for now.",
-		"tradeRequest": "Trade is beneath us, but our advisor counsels some kind of exchange.",
+		"afterPeace": "I am happy to inform you that I spared your lives... for now.",
+		"tradeRequest": "Trade is beneath me, but my advisor counsels some kind of exchange.",
 
 		"outerColor": [16,16,16],
 		"innerColor": [255,100,100],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
+		"unique": "",
+		"cities": ["Shraqù","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
 			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
 			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
 			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
