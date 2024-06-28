@@ -8,7 +8,7 @@
 		"movement": 2,
 		"cost": 70,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
-		"civilopediaText": [{"text": "Lowly peasants, a necessary tool,... and food if the need arises."}]
+		"civilopediaText": [{"text": "Lowly peasants of the lands, enchanted by their master, a necessary tool to do the biddings,... and food if the need arises."}]
 	},
 	{		
 		"name": "Bat",
