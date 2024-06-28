@@ -3,36 +3,33 @@
 		"name": "Upiór",
 		"leaderName": "Dragovid",
 		"adjective": ["upióric"],
-		"startBias": ["Avoid [Desert]","Avoid [Snow]"],
+		"startBias": ["Avoid [Desert]","Avoid [Snow]","Hill"],
 		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "Thirsty for new adventures, my liege?",
-		"startIntroPart2": "This is a nation of ancient bloodsucking beings, old and powerful, and a tiny bit disconnected of the affairs of mere mortals",
+		"startIntroPart2": "This is a nation of ancient bloodsucking beings, old and powerful, a compulsively hierarchical gerontocracy and consider themselves above all.",
 		
-		"declaringWar": "You might as well give up now, this will be over soon",
-		"attacked": "I suppose we'll have to ready the peasants to fight",
-		"defeated": "You may have caused us a temporary setback, we will come back to haunt you another time",
-		"introduction": "Why do you disturb us?",
+		"declaringWar": ["You might as well give up now, but i do like spicy food", "This will be over soon... unfortunately"],
+		"attacked": ["My master will not take to this kindly","I suppose we'll have to ready the peasants to fight"],
+		"defeated": ["You have merely caused us a temporary setback", "We will come back to haunt you another time"],
+		"introduction": "I'm busy, WHAT is it?",
 		
-		"neutralHello": "Why am I disturbed?",
-		"neutralLetsHearIt": ["Get on with it, then.","You were addressing me?","Speak!"],
-		"neutralNo": ["No.","Am I supposed to answer this?","I refuse."],
+		"neutralHello": "A quick warning, our master does NOT like to be disturbed,... *silently, between his teeth* and certainly not by peasants",
+		"neutralLetsHearIt": ["Get on with it, then.","I have other affairs to attend to.","You were addressing ME?","Have you not mastered speech?","Are the fanged teeth to much of a distraction?"],
+		"neutralNo": ["No... Next!","This... is an actual proposal?","Perhaps you should reconsider your career.","Were you dropped on the head as a babe?"],
 		"neutralYes": ["That will suffice, I suppose.","Well then, let's see you get to it.","Deal concluded, you may be on your way."],
 
-		"hateHello": "What do you want?!",
-		"hateLetsHearIt": ["Speak!","What did you say?","Don't waste my time!"],
-		"hateNo": ["This is an insult!","*deadly glare*.","Begone, before I feed you to my thralls!"],
-		"hateYes": ["Fine.","You're lucky I'm not thirsty for more... this time. Now leave!","*hissss*   ...I... ...accept..."],
+		"hateHello": ["What do you want?!","YOU?! You dare address me?!?","You are not worthy of my masters' attention"],
+		"hateLetsHearIt": ["Speak!","What?","Don't waste my time!"],
+		"hateNo": ["This is an insult! ... Don't come here again if you want to stay among the living","*deadly glare* Leave!","Begone, before I feed you to my thralls!... or my master..."],
+		"hateYes": ["Fine.","You're lucky I'm not thirsty for more... today. Now leave!","*hissss*   ...I... ...accept..."],
 		
 		"afterPeace": "I am happy to inform you that I spared your lives... for now.",
-		"tradeRequest": "Trade is beneath me, but my advisor counsels some kind of exchange.",
+		"tradeRequest": "Trade is beneath me, but my advisors counsel some kind of exchange.",
 
 		"outerColor": [16,16,16],
 		"innerColor": [255,100,100],
 		"unique": "",
-		"cities": ["Shraqù","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+		"cities": ["Dragograd","Shraqù","Thraqìa","Illiriù",""]
 	}
 ]
