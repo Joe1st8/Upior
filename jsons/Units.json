@@ -1,7 +1,7 @@
 [
 	/* Ancient Era */
 	{
-		"name": "Peasant",
+		"name": "Thrall",
 		"unitType": "Civilian",
 		"uniqueTo": "Upiór",
 		"replaces": "Worker",
