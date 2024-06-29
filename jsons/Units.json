@@ -39,8 +39,7 @@
 		"cost": 40,
 		"uniques": [	"[+90]% Strength <when defending> <vs [Archery] units>",
 				"[+90]% Strength <when defending> <vs [Ranged Gunpowder] units>",
-				"[+90]% Strength <when defending> <vs [Gunpowder] units>"
-		],
+				"[+90]% Strength <when defending> <vs [Gunpowder] units>"],
 		"obsoleteTech": "Metal Casting",
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "Raised skeletons are quite difficult to hit at range."}]
