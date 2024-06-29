@@ -31,7 +31,6 @@
 	},
 	{
 		"name": "Bone warrior",
-		"replaces": "Warrior",
 		"uniqueTo": "Upióriç",
 		"unitType": "Sword",
 		"movement": 2,
@@ -48,7 +47,6 @@
 		"name": "Serf",
 		"unitType": "Sword",
 		"uniqueTo": "Upióriç",
-		"replaces": "Warrior",
 		"movement": 2,
 		"strength": 4,
 		"cost": 20,
@@ -74,10 +72,12 @@
 		"name": "Thrall",
 		"unitType": "Upiór",
 		"uniqueTo": "Upióriç",
+		"replaces": "Warrior",
 		"movement": 2,
 		"strength": 8,
 		"cost": 80,
 		"uniques": ["Uncapturable"],
+		"promotions": ["Infected"],
 		"upgradesTo": "Strigoi",
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "Thralls are mortals enchanted to do the bidding of their Strigoi masters, hoping for a chance at immortality."}]
@@ -90,6 +90,7 @@
 		"strength": 16,
 		"cost": 160,
 		"uniques": ["Uncapturable"],
+		"promotions": ["Infected", "Bloodsucker"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "Strigoi are the most archetypical of the Upiór: powerful and refined, but insufferably arrogant and disconnected."}]
 	}
