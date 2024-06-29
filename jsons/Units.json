@@ -76,7 +76,6 @@
 		"cost": 80,
 		"uniques": ["Uncapturable"],
 		"promotions": ["Infected"],
-		"upgradesTo": "Strigoi",
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "Thralls are mortals enchanted to do the bidding of their Strigoi masters, hoping for a chance at immortality."}]
 	},
@@ -86,9 +85,22 @@
 		"uniqueTo": "Upióriç",
 		"movement": 3,
 		"strength": 16,
-		"cost": 160,
+		"cost": 140,
 		"uniques": ["Uncapturable"],
-		"promotions": ["Infected","Acolyte","Bloodsucker I"],
+		"promotions": ["Infected","Acolyte","The path of the blood"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [{"text": "Strigoi are the most archetypical of the Upiór: powerful and refined, but insufferably arrogant and disconnected."}]
+	}
+	{
+		"name": "Ubir",
+		"unitType": "Upiór",
+		"uniqueTo": "Upióriç",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 10,
+		"cost": 140,
+		"uniques": ["Uncapturable"],
+		"promotions": ["Infected","Acolyte","The path of the magicks"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "Strigoi are the most archetypical of the Upiór: powerful and refined, but insufferably arrogant and disconnected."}]
 	}
