@@ -45,12 +45,18 @@
 		"unitTypes": ["Upiór"]
 	},	
 	{
-		"name": "Flight",
+		"name": "Soar",
 		"prerequisites": ["Float"],
-		"uniques": ["[+1] Movement"],
+		"uniques": ["[+1] Movement, [+1] Sight"],
 		"unitTypes": ["Upiór"],
 	},
 	{
+		"name": "Flight",
+		"prerequisites": ["Soar"],
+		"uniques": ["[+1] Movement, [+1] Sight"],
+		"unitTypes": ["Upiór"],
+	},
+	{	
 		"name": "Resilience",
 		"prerequisites": ["Bloodsucker"],
 		"uniques": ["[+20]% HP when healing <in [Foreign land] tiles>"],
