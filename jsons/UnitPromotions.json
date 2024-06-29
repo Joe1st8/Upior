@@ -1,30 +1,42 @@
 [
 	// Upiór
 	
-		//Bone warriors
+		// Bone Army
 	{
 		"name": "Bony",
 		"uniques": ["[+90]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege"],
 	},
 	
-		// Strigoi
+		// Thrall
 	{
 		"name": "Infected",
+		"uniques": ["[-50]% maintenance costs",
+			"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
+			"[-15]% Strength <when fighting in [Foreign Land] tiles> <when defending>"]
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"]
 	},
+
+		// Strigoi
 	{
 		"name": "Bloodsucker I",
 		"prerequisites": ["Infected"],
-		"uniques": ["Heals [15] damage if it kills a unit",
-				"[-100]% maintenance costs",
-				"[-25]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
+		"uniques": ["Heals [10] damage if it kills a unit",
+				"[-50]% maintenance costs",
+				"[-15]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
+				"[-15]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
 				"[+50]% Strength <upon entering a new era>"],
 		"unitTypes": ["Upiór"]
 	},
 	{
 		"name": "Bloodsucker II",
 		"prerequisites": ["Bloodsucker I"],
+		"uniques": ["Heals [10] damage if it kills a unit"],
+		"unitTypes": ["Upiór"]
+	},
+	{
+		"name": "Bloodsucker III",
+		"prerequisites": ["Bloodsucker II"],
 		"uniques": ["Heals [10] damage if it kills a unit"],
 		"unitTypes": ["Upiór"]
 	},
