@@ -88,7 +88,7 @@
 		"strength": 16,
 		"cost": 160,
 		"uniques": ["Uncapturable"],
-		"promotions": ["Infected", "Bloodsucker"],
+		"promotions": ["Infected", "Bloodsucker I"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "Strigoi are the most archetypical of the Upiór: powerful and refined, but insufferably arrogant and disconnected."}]
 	}
