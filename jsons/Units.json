@@ -1,43 +1,53 @@
 [
 	/* Ancient Era */
 	{
-		"name": "Thrall",
+		"name": "Peasant",
 		"unitType": "Civilian",
-		"uniqueTo": "Upiór",
+		"uniqueTo": "Upióriç",
 		"replaces": "Worker",
 		"movement": 2,
 		"cost": 70,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
-		"civilopediaText": [{"text": "Lowly peasants of the lands, enchanted by their master, a necessary tool to do the biddings,... and food if the need arises."}]
+		"civilopediaText": [{"text": "Peasants of the ancestral lands, enchanted or forced to work for the lord of the land."}]
 	},
 	{		
 		"name": "Bat",
 		"unitType": "Scout",
+		"uniqueTo": "Upióriç",
 		"movement": 3,
 		"cost": 25,
-		"uniques": ["Never appears as a Barbarian unit"],
-		"promotions": ["Ignore terrain cost","Can pass through impassable tiles"],
+		"uniques": ["Ignore terrain cost","Can pass through impassable tiles","Invisible to others"],
+		"upgradesTo": "Giant bat"
+	},
+	{	
+		"name": "Giant bat",
+		"unitType": "Scout",
+		"uniqueTo": "Upióriç",
+		"movement": 3,
+		"strength": 4,
+		"cost": 40,
+		"uniques": ["Never appears as a Barbarian unit","Ignore terrain cost","Can pass through impassable tiles"],
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Skeleton warrior",
+		"name": "Bone warrior",
 		"replaces": "Warrior",
-		"uniqueTo": "Upiór",
+		"uniqueTo": "Upióriç",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit",""],
 		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
+		"upgradesTo": "Bone Swordsman",
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "Raised skeletons are quite difficult to hit at range."}
 	},
 	{
-		"name": "Serf",
+		"name": "Bone Swordsman",
 		"unitType": "Sword",
-		"uniqueTo": "Upiór",
+		"uniqueTo": "Upióriç",
 		"replaces": "Warrior",
 		"movement": 2,
 		"strength": 4,
@@ -50,17 +60,50 @@
 	{
 		"name": "Serf",
 		"unitType": "Sword",
-		"uniqueTo": "Upiór",
+		"uniqueTo": "Upióriç",
 		"replaces": "Warrior",
 		"movement": 2,
 		"strength": 4,
 		"cost": 20,
 		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
+		"upgradesTo": "Militia",
 		"attackSound": "nonmetalhit",
-		"civilopediaText": [{"text": "A peasant with rudimentary training in using farming tools as weapons."}]	
+		"civilopediaText": [{"text": "A peasant using farming tools as weapons."}]	
 	},
 	{
-		
+		"name": "Militia",
+		"unitType": "Sword",
+		"uniqueTo": "Upióriç",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"uniques": ["Unbuildable"],
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [{"text": "A serf with rudimentary, but frequent training and basic, but professional weapons."}]	
+	},
+	{
+		"name": "Thrall",
+		"unitType": "Upiór",
+		"uniqueTo": "Upióriç",
+		"movement": 2,
+		"strength": 8,
+		"cost": 80,
+		"uniques": ["Uncapturable"],
+		"upgradesTo": "Strigoi",
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [{"text": "Thralls are mortals enchanted to do the bidding of their Strigoi masters, hoping for a chance at immortality."}]
+	},
+	{
+		"name": "Strigoi",
+		"unitType": "Upiór",
+		"uniqueTo": "Upióriç",
+		"movement": 3,
+		"strength": 16,
+		"cost": 160,
+		"uniques": ["Uncapturable"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [{"text": "Strigoi are the most archetypical of the Upiór: powerful and refined, but insufferably arrogant and disconnected."}]
 	}
 ]
