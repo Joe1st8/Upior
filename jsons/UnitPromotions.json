@@ -13,17 +13,30 @@
 	{
 		"name": "Bloodsucker",
 		"uniques": ["[-50]% HP when healing <in [Foreign land] tiles>", "[Wounded] units gain the [Infected] promotion <when adjacent to a [Strigoi] unit>"],
-		"unitTypes": ["Upiór"] 	},
+		"unitTypes": ["Upiór"]
+	},
 	{    	
-		"name": "Entrance",
+		"name": "Enthrall I",
 		"prerequisites": ["Bloodsucker"],
-		"uniques": ["May capture killed [Infected] units <with [20]% chance>"],
+		"uniques": ["May capture killed [Infected] units <with [25]% chance>"],
 		"unitTypes": ["Upiór"]
 	},	
 	{
+		"name": "Enthrall II",
+		"prerequisites": ["Enthrall I"],
+		"uniques": ["May capture killed [Infected] units <with [50]% chance>"],
+		"unitTypes": ["Upiór"]
+	},	
+	{	
+		"name": "Enthrall III",
+		"prerequisites": ["Enthrall II"],
+		"uniques": ["May capture killed [Infected] units <with [75]% chance>"],
+		"unitTypes": ["Upiór"]
+	},	
+	{	
 		"name": "Speed",
 		"prerequisites": ["Bloodsucker"],
-		"uniques": "[+1] Movement",
+		"uniques": ["[+1] Movement", "Ignore terrain cost"],
 		"unitTypes": ["Upiór"]
 	},	
 	{
@@ -46,7 +59,7 @@
 	},
 	{
 		"name": "Terrifying aura",
-		"prerequisites": [not-"Winged Vampire","Daywalker"],
+		"prerequisites": ["Bloodsucker", "not-[Speed]", "not-[Enthrall I]"],
 		"uniques": ["[-10]% Strength for enemy [All] units in adjacent [All] tiles"],
 		"unitTypes": ["Vampire"]
 	},
