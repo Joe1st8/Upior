@@ -19,7 +19,7 @@
 		"neutralNo": ["...No... next?","This... is an actual proposal?","Perhaps you should reconsider your career.","Were you dropped on the head as an infant?"],
 		"neutralYes": ["That will suffice, I suppose.","Well then, let's see you get to it.","Deal concluded, you may be on your way."],
 
-		"hateHello": ["What do you want?!","YOU?! You dare address ME?!?","What could you possibly have to say that would interest my master?"],
+		"hateHello": "What do you want?!",
 		"hateLetsHearIt": ["Speak!","What?","Don't waste my time!"],
 		"hateNo": ["This is an insult! ... Don't come here again if you want to stay among the living","*deadly glare* Leave!","Begone, before I feed you to my thralls!... or my master..."],
 		"hateYes": ["Fine.","You're lucky I'm not thirsty for more... today. Now leave!","*hissss*   ...I... ...accept..."],
