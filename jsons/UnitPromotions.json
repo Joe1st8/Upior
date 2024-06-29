@@ -7,7 +7,11 @@
 	},
 	{
 		"name": "Bloodsucker",
-		"uniques": "Heals [25] damage if it kills a unit",
+		"uniques": ["Heals [25] damage if it kills a unit",
+				"[-100]% maintenance costs",
+				"[+50]% Strength <upon entering a new era>",
+				"[-20]% Strength when in [Foreign Land]",
+				"[-50]% HP when healing <in [Foreign land] tiles>"],
 		"unitTypes": ["Upiór"]
 	},
 	{    	
