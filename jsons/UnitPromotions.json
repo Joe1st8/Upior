@@ -35,13 +35,13 @@
 	{	
 		"name": "Speed",
 		"prerequisites": ["Bloodsucker"],
-		"uniques": ["[+1] Movement", "Ignore terrain cost"],
+		"uniques": ["[+1] Movement", "Ignores terrain cost"],
 		"unitTypes": ["Upiór"]
 	},	
 	{
 		"name": "Float",
 		"prerequisites": ["Speed"],
-		"uniques": ["Can pass through impassable tiles, [+1] Sight"],
+		"uniques": ["Can pass through impassable tiles", "[+1] Sight"],
 		"unitTypes": ["Upiór"]
 	},	
 	{
