@@ -30,7 +30,7 @@
 		"outerColor": [16,16,16],
 		"innerColor": [255,100,100],
 		"uniqueName": "Crimson Counts",
-		"uniques": "When defeating a [Infected] unit, earn [0] Gold and recruit it",
+		"uniques": "When defeating a [Wounded] unit, earn [0] Gold and recruit it",
 		"cities": ["Cluj-Napoca","Timișoara","Brașov","Oradea","Arad","Sibiu","Târgu Mureș","Baia Mare","Satu Mare","Bistrița","Alba Iùlia","Reșița","Deva","Zalău","Hunedoara","Sfântu Gheorghe","Turda","Mediaș","Lugoj","Miercurea Ciuc","Biertan","Sighișoara","Orăștie","Sovata","Aiud"]
 	}
 ]
