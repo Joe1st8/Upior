@@ -59,9 +59,9 @@
 	},
 	{
 		"name": "Terrifying aura",
-		"prerequisites": ["Bloodsucker", "not-[Speed]", "not-[Enthrall I]"],
+		"prerequisites": ["Bloodsucker"],
 		"uniques": ["[-10]% Strength for enemy [All] units in adjacent [All] tiles"],
-		"unitTypes": ["Vampire"]
+		"unitTypes": ["Upiór"]
 	},
 	{
 		"name": "Blood Baptism",
