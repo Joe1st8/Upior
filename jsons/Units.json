@@ -42,7 +42,6 @@
 				"[+90]% Strength <when defending> <vs [Gunpowder] units>"
 		],
 		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Bone Swordsman",
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "Raised skeletons are quite difficult to hit at range."}]
 	},
