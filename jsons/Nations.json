@@ -28,7 +28,7 @@
 		"tradeRequest": "Trade is beneath me, but my advisors counsel some kind of exchange.",
 
 		"outerColor": [16,16,16],
-		"innerColor": [255,100,100],
+		"innerColor": [255,155,155],
 		"uniqueName": "Crimson Counts",
 		"cities": ["Cluj-Napoca","Timișoara","Brașov","Oradea","Arad","Sibiu","Târgu Mureș","Baia Mare","Satu Mare","Bistrița","Alba Iùlia","Reșița","Deva","Zalău","Hunedoara","Sfântu Gheorghe","Turda","Mediaș","Lugoj","Miercurea Ciuc","Biertan","Sighișoara","Orăștie","Sovata","Aiud"]
 	}
