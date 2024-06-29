@@ -7,7 +7,7 @@
 		"replaces": "Worker",
 		"movement": 2,
 		"cost": 70,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Can build [Land] improvements on tiles"],
 		"civilopediaText": [{"text": "Peasants of the ancestral lands, enchanted or forced to work for the lord of the land."}]
 	},
 	{		
