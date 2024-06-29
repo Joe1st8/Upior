@@ -5,16 +5,23 @@
 		"unitTypes": ["All"],
 	},
 	{
-		"name": "Bloodsucker",
+		"name": "Bloodsucker I",
 		"prerequisites": ["Infected"],
-		"uniques": ["Heals [25] damage if it kills a unit",
+		"uniques": ["Heals [15] damage if it kills a unit",
 				"[-100]% maintenance costs",
+				"[-25]% Strength <when fighting in [Foreign terrain] tiles> <when attacking>"],
 				"[+50]% Strength <upon entering a new era>",],
+		"unitTypes": ["Upiór"]
+	},
+	{
+		"name": "Bloodsucker II",
+		"prerequisites": ["Bloodsucker I"],
+		"uniques": ["Heals [25] damage if it kills a unit"],
 		"unitTypes": ["Upiór"]
 	},
 	{    	
 		"name": "Enthrall I",
-		"prerequisites": ["Bloodsucker"],
+		"prerequisites": ["Bloodsucker I"],
 		"uniques": ["May capture killed [Military] units <with [25]% chance>"],
 		"unitTypes": ["Upiór"]
 	},	
@@ -32,7 +39,7 @@
 	},	
 	{	
 		"name": "Speed",
-		"prerequisites": ["Bloodsucker"],
+		"prerequisites": ["Bloodsucker I"],
 		"uniques": ["[+1] Movement", "Ignores terrain cost"],
 		"unitTypes": ["Upiór"]
 	},	
@@ -56,7 +63,7 @@
 	},
 	{
 		"name": "Terrifying aura",
-		"prerequisites": ["Bloodsucker"],
+		"prerequisites": ["Bloodsucker I"],
 		"uniques": ["[-10]% Strength for enemy [All] units in adjacent [All] tiles"],
 		"unitTypes": ["Upiór"]
 	}
