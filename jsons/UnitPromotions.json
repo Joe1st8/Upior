@@ -25,7 +25,7 @@
 	{
 		"name": "Bloodsucker II",
 		"prerequisites": ["Bloodsucker I"],
-		"uniques": ["Heals [25] damage if it kills a unit"],
+		"uniques": ["Heals [10] damage if it kills a unit"],
 		"unitTypes": ["Upiór"]
 	},
 	{    	
