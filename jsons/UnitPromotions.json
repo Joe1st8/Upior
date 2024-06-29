@@ -65,21 +65,21 @@
 		"unitTypes": ["Upiór"]
 	},	
 	{
-		"name": "Float",
+		"name": "Hover",
 		"prerequisites": ["Speed"],
 		"uniques": ["Can pass through impassable tiles", "[+1] Sight"],
 		"unitTypes": ["Upiór"]
 	},	
 	{
 		"name": "Soar",
-		"prerequisites": ["Float"],
+		"prerequisites": ["Hover"],
 		"uniques": ["[+1] Movement"],
 		"unitTypes": ["Upiór"],
 	},
 	{
 		"name": "Flight",
 		"prerequisites": ["Soar"],
-		"uniques": ["[+1] Movement"],
+		"uniques": ["[+2] Movement", "[+1] Sight"],
 		"unitTypes": ["Upiór"],
 	},
 	{
