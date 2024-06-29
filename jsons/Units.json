@@ -16,7 +16,7 @@
 		"uniqueTo": "Upióriç",
 		"movement": 3,
 		"cost": 25,
-		"uniques": ["Ignore terrain cost","Can pass through impassable tiles","Invisible to others"],
+		"uniques": ["Ignores terrain cost","Can pass through impassable tiles","Invisible to others"],
 		"upgradesTo": "Giant bat"
 	},
 	{	
@@ -26,7 +26,7 @@
 		"movement": 3,
 		"strength": 4,
 		"cost": 40,
-		"uniques": ["Never appears as a Barbarian unit","Ignore terrain cost","Can pass through impassable tiles"],
+		"uniques": ["Never appears as a Barbarian unit","Ignores terrain cost","Can pass through impassable tiles"],
 		"attackSound": "nonmetalhit"
 	},
 	{
