@@ -7,7 +7,7 @@
 	},
 	{
 		"name": "Bloodsucker",
-		"uniques": ["[Wounded] units gain the [Infected] promotion <when adjacent to a [Strigoi] unit>"],
+		"uniques": "Heals [25] damage if it kills a unit",
 		"unitTypes": ["Upiór"]
 	},
 	{    	
