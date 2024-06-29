@@ -27,8 +27,8 @@
 		"afterPeace": "I am happy to inform you that I spared your lives... for now.",
 		"tradeRequest": "Trade is beneath me, but my advisors counsel some kind of exchange.",
 
-		"outerColor": [16,16,16],
-		"innerColor": [150,10,0],
+		"outerColor": [12,12,12],
+		"innerColor": [171,59,51],
 		"uniqueName": "Crimson Counts",
 		"cities": ["Cluj-Napoca","Timișoara","Brașov","Oradea","Arad","Sibiu","Târgu Mureș","Baia Mare","Satu Mare","Bistrița","Alba Iùlia","Reșița","Deva","Zalău","Hunedoara","Sfântu Gheorghe","Turda","Mediaș","Lugoj","Miercurea Ciuc","Biertan","Sighișoara","Orăștie","Sovata","Aiud"]
 	}
