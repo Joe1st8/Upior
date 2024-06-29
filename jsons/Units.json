@@ -37,26 +37,25 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"uniques": ["Never appears as a Barbarian unit",""],
+		"uniques": "[+90]% Strength <when fighting>",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Bone Swordsman",
-		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit",
-		"civilopediaText": [{"text": "Raised skeletons are quite difficult to hit at range."}
+		"civilopediaText": [{"text": "Raised skeletons are quite difficult to hit at range."}]
 	},
-	{
-		"name": "Bone Swordsman",
-		"unitType": "Sword",
-		"uniqueTo": "Upióriç",
-		"replaces": "Warrior",
-		"movement": 2,
-		"strength": 4,
-		"cost": 20,
-		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit",
-		"civilopediaText": [{"text": "A peasant with rudimentary training in using farming tools as weapons."}]
-	},
+	//{
+	//	"name": "Bone Swordsman",
+	//	"unitType": "Sword",
+	//	"uniqueTo": "Upióriç",
+	//	"replaces": "Warrior",
+	//	"movement": 2,
+	//	"strength": 4,
+	//	"cost": 20,
+	//	"obsoleteTech": "Metal Casting",
+	//	"upgradesTo": "Bone",
+	//	"attackSound": "nonmetalhit",
+	//	"civilopediaText": [{"text": "A peasant with rudimentary training in using farming tools as weapons."}]
+	//},
 	{
 		"name": "Serf",
 		"unitType": "Sword",
