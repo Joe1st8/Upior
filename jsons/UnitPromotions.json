@@ -1,41 +1,52 @@
 [
   //
-  {
-		"name": "Bloodsucker",
-		"uniques": ["[-50]% HP when healing <in [Foreign land] tiles>",This Unit gains the [Infected] promotion],
-		"unitTypes": ["Upiór"]
- 	},
 	{
-    "name": "Infected",
-		"uniques": [""],
+		"name": "Infected",
+		"uniques": ["<upon being defeated>"],
 		"unitTypes": ["All"]",
 	},
 	{
-    "name": "Entrance ability",
-		"uniques": ["May capture killed [All] units <with [20]% chance>"],
-    "unitTypes": ["Upiór"]
+		"name": "Bloodsucker",
+		"uniques": ["[-50]% HP when healing <in [Foreign land] tiles>", "Grants [Infected] to adjacent [Wounded] units for the rest of the game"],
+		"unitTypes": ["Upiór"]
+	},
+	{
+		"name": "Bloodsucker",
+		"uniques": ["[-50]% HP when healing <in [Foreign land] tiles>", "[Wounded] units gain the [Infected] promotion <when adjacent to a [Strigoi] unit>"],
+		"unitTypes": ["Upiór"] 	},
+	{    	
+		"name": "Entrance",
+		"prerequisites": ["Bloodsucker"],
+		"uniques": ["May capture killed [Infected] units <with [20]% chance>"],
+		"unitTypes": ["Upiór"]
+	},	
+	{
+		"name": "Speed",
+		"prerequisites": ["Bloodsucker"],
+		"uniques": [[+1] Movement],
+		"unitTypes": ["Upiór"]
 	},	
 	{
 		"name": "Float",
-		"prerequisites": ["Bloodlust"],
+		"prerequisites": ["Speed"],
 		"uniques": ["Can pass through impassable tiles"],
 		"unitTypes": ["Upiór"]
 	},	
 	{
-  	"name": "Flight",
-		"prerequisites": ["Bloodlust"],
-		"uniques": [[+2] Movement],
+		"name": "Flight",
+		"prerequisites": ["Flight"],
+		"uniques": [[+2] Movement, [+1] Sight],
 		"unitTypes": ["Upiór"],
-  },
-	{
-		"name": "Resilience",
-		"prerequisites": ["Bloodlust"],
-		"uniques": ["[+20]% HP when healing <in [Foreign land] tiles>"],
-		"unitTypes": ["Vampire"]
 	},
 	{
-		"name": "Frightening Vibe",
-		"prerequisites": ["Winged Vampire","Daywalker"],
+		"name": "Resilience",
+		"prerequisites": ["Bloodsucker"],
+		"uniques": ["[+20]% HP when healing <in [Foreign land] tiles>"],
+		"unitTypes": ["Upiór"]
+	},
+	{
+		"name": "Terrifying aura",
+		"prerequisites": [not-"Winged Vampire","Daywalker"],
 		"uniques": ["[-10]% Strength for enemy [All] units in adjacent [All] tiles"],
 		"unitTypes": ["Vampire"]
 	},
