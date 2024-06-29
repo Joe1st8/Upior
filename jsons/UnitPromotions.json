@@ -11,7 +11,7 @@
 		// Strigoi
 	{
 		"name": "Infected",
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"]
 	},
 	{
 		"name": "Bloodsucker I",
