@@ -7,12 +7,7 @@
 	},
 	{
 		"name": "Bloodsucker",
-		"uniques": ["[-50]% HP when healing <in [Foreign land] tiles>", "Grants [Infected] to adjacent [Wounded] units for the rest of the game"],
-		"unitTypes": ["Upiór"]
-	},
-	{
-		"name": "Bloodsucker",
-		"uniques": ["[-50]% HP when healing <in [Foreign land] tiles>", "[Wounded] units gain the [Infected] promotion <when adjacent to a [Strigoi] unit>"],
+		"uniques": ["[Wounded] units gain the [Infected] promotion <when adjacent to a [Strigoi] unit>"],
 		"unitTypes": ["Upiór"]
 	},
 	{    	
