@@ -62,10 +62,5 @@
 		"prerequisites": ["Bloodsucker"],
 		"uniques": ["[-10]% Strength for enemy [All] units in adjacent [All] tiles"],
 		"unitTypes": ["Upiór"]
-	},
-	{
-		"name": "Blood Baptism",
-		"prerequisites": ["Frightening Vibe"],
-		"uniques": ["[+25]% Strength"],
-		"unitTypes": ["Vampire"]
-	},
+	}
+]
