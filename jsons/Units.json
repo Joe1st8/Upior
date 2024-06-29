@@ -37,7 +37,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"uniques": "[+90]% Strength <when defending> <vs [Archery] units>", "[+90]% Strength <when defending> <vs [Ranged Gunpowder] units>", "[+90]% Strength <when defending> <vs [Gunpowder] units>",
+		"uniques": ["[+90]% Strength <when defending> <vs [Archery] units>", "[+90]% Strength <when defending> <vs [Ranged Gunpowder] units>", "[+90]% Strength <when defending> <vs [Gunpowder] units>"],
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Bone Swordsman",
 		"attackSound": "nonmetalhit",
