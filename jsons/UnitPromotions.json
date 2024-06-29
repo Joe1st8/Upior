@@ -46,7 +46,7 @@
 	},	
 	{
 		"name": "Flight",
-		"prerequisites": ["Flight"],
+		"prerequisites": ["Float"],
 		"uniques": ["[+2] Movement, [+2] Sight"],
 		"unitTypes": ["Upiór"],
 	},
