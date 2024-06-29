@@ -117,7 +117,7 @@
 		"unitTypes": ["Upiór"]
 	},
 
-			// Liche
+			// Ubir
 	{
 		"name": "Mage 1",
 		"prerequisites": ["The path of the magicks"],
@@ -125,7 +125,7 @@
 				"[-50]% maintenance costs",
 				"[-20]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
 				"[-20]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
-				"[+50]% Strength <upon entering a new era>"],
+				"[+25]% Strength <upon entering a new era>"],
 		"unitTypes": ["Upiór"]
 	},
 ]
