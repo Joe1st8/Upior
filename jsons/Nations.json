@@ -10,8 +10,8 @@
 		"startIntroPart2": "This is a nation of ancient bloodsucking beings, old and powerful, a compulsively hierarchical gerontocracy and consider themselves above all.",
 		
 		"declaringWar": "You might as well give up now, but i do like spicy food.",
-		"attacked": ["My master will not take to this kindly.","I suppose we'll have to ready the peasants to fight."],
-		"defeated": ["You have merely caused us a temporary setback.", "We will come back to haunt you another time."],
+		"attacked": "I suppose we'll have to ready the peasants to fight.",
+		"defeated": "You have merely caused us a temporary setback.",
 		"introduction": "I'm busy, WHAT is it?",
 		
 		"neutralHello": "A warning, our master does NOT like to be disturbed,... *silently, between his teeth* and certainly not by peasants.",
