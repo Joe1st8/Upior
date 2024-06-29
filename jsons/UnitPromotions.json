@@ -2,7 +2,7 @@
   // Upiór
 	{
 		"name": "Infected",
-		"uniques": "<Can transform to [Strigoi]> <upon being defeated>",
+		"uniques": "<Can transform to [Thrall]> <upon being defeated>",
 		"unitTypes": ["All"],
 	},
 	{
