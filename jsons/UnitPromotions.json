@@ -11,33 +11,61 @@
 		// Thrall
 	{
 		"name": "Infected",
-		"uniques": ["[-50]% maintenance costs",
+		"uniques": ["[-10]% maintenance costs",
 			"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
-			"[-15]% Strength <when fighting in [Foreign Land] tiles> <when defending>"]
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"]
+			"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Upiór"]
+	},
+	{
+		"name": "Acolyte",
+		"prerequisites": ["Infected"],
+		"uniques": ["[-15]% maintenance costs",
+				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
+				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
+				"[+25]% Strength"],
+		"unitTypes": ["Upiór"]
+	},
+	{
+		"name": "The path of the blood",
+		"prerequisites": ["Acolyte"],
+		"uniques": ["Heals [5] damage if it kills a unit",
+				"[-25]% maintenance costs",
+				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
+				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
+				"Can transform to [Strigoi]"],
+		"unitTypes": ["Upiór"]
+	},
+	{
+		"name": "The path of the magicks",
+		"prerequisites": ["Acolyte"],
+		"uniques": ["[-25]% maintenance costs",
+				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
+				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
+				"Can transform to [Strigoi]"],
+		"unitTypes": ["Upiór"]
 	},
 
 		// Strigoi
 	{
 		"name": "Bloodsucker I",
-		"prerequisites": ["Infected"],
+		"prerequisites": ["The path of the blood"],
 		"uniques": ["Heals [10] damage if it kills a unit",
 				"[-50]% maintenance costs",
-				"[-15]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
-				"[-15]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
+				"[-20]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
+				"[-20]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
 				"[+50]% Strength <upon entering a new era>"],
 		"unitTypes": ["Upiór"]
 	},
 	{
 		"name": "Bloodsucker II",
 		"prerequisites": ["Bloodsucker I"],
-		"uniques": ["Heals [10] damage if it kills a unit"],
+		"uniques": ["Heals [15] damage if it kills a unit"],
 		"unitTypes": ["Upiór"]
 	},
 	{
 		"name": "Bloodsucker III",
 		"prerequisites": ["Bloodsucker II"],
-		"uniques": ["Heals [10] damage if it kills a unit"],
+		"uniques": ["Heals [20] damage if it kills a unit"],
 		"unitTypes": ["Upiór"]
 	},
 	{    	
@@ -87,5 +115,17 @@
 		"prerequisites": ["Bloodsucker I"],
 		"uniques": ["[-10]% Strength for enemy [All] units in adjacent [All] tiles"],
 		"unitTypes": ["Upiór"]
-	}
+	},
+
+			// Liche
+	{
+		"name": "Mage 1",
+		"prerequisites": ["The path of the magicks"],
+		"uniques": ["",
+				"[-50]% maintenance costs",
+				"[-20]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
+				"[-20]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
+				"[+50]% Strength <upon entering a new era>"],
+		"unitTypes": ["Upiór"]
+	},
 ]
