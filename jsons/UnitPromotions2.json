@@ -1,0 +1,66 @@
+[
+  // Upiór
+	{
+		"name": "Infected",
+		"uniques": ["<upon being defeated>"],
+		"unitTypes": ["All"],
+	},
+	{
+		"name": "Bloodsucker",
+		"uniques": ["[-50]% HP when healing <in [Foreign land] tiles>", "Grants [Infected] to adjacent [Wounded] units for the rest of the game"],
+		"unitTypes": ["Upiór"]
+	},
+	{
+		"name": "Bloodsucker",
+		"uniques": ["[-50]% HP when healing <in [Foreign land] tiles>", "[Wounded] units gain the [Infected] promotion <when adjacent to a [Strigoi] unit>"],
+		"unitTypes": ["Upiór"]
+	},
+	{    	
+		"name": "Enthrall I",
+		"prerequisites": ["Bloodsucker"],
+		"uniques": ["May capture killed [Infected] units <with [25]% chance>"],
+		"unitTypes": ["Upiór"]
+	},	
+	{
+		"name": "Enthrall II",
+		"prerequisites": ["Enthrall I"],
+		"uniques": ["May capture killed [Infected] units <with [50]% chance>"],
+		"unitTypes": ["Upiór"]
+	},	
+	{	
+		"name": "Enthrall III",
+		"prerequisites": ["Enthrall II"],
+		"uniques": ["May capture killed [Infected] units <with [75]% chance>"],
+		"unitTypes": ["Upiór"]
+	},	
+	{	
+		"name": "Speed",
+		"prerequisites": ["Bloodsucker"],
+		"uniques": ["[+1] Movement", "Ignore terrain cost"],
+		"unitTypes": ["Upiór"]
+	},	
+	{
+		"name": "Float",
+		"prerequisites": ["Speed"],
+		"uniques": ["Can pass through impassable tiles, [+1] Sight"],
+		"unitTypes": ["Upiór"]
+	},	
+	{
+		"name": "Flight",
+		"prerequisites": ["Flight"],
+		"uniques": "[+2] Movement, [+2] Sight",
+		"unitTypes": ["Upiór"],
+	},
+	{
+		"name": "Resilience",
+		"prerequisites": ["Bloodsucker"],
+		"uniques": ["[+20]% HP when healing <in [Foreign land] tiles>"],
+		"unitTypes": ["Upiór"]
+	},
+	{
+		"name": "Terrifying aura",
+		"prerequisites": ["Bloodsucker"],
+		"uniques": ["[-10]% Strength for enemy [All] units in adjacent [All] tiles"],
+		"unitTypes": ["Upiór"]
+	}
+]
