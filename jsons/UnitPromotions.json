@@ -23,7 +23,7 @@
 	{
 		"name": "Speed",
 		"prerequisites": ["Bloodsucker"],
-		"uniques": [[+1] Movement],
+		"uniques": [[+1]Movement],
 		"unitTypes": ["Upiór"]
 	},	
 	{
@@ -35,7 +35,7 @@
 	{
 		"name": "Flight",
 		"prerequisites": ["Flight"],
-		"uniques": [[+2] Movement, [+1] Sight],
+		"uniques": [[+2]Movement, [+1]Sight],
 		"unitTypes": ["Upiór"],
 	},
 	{
