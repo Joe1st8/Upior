@@ -2,11 +2,11 @@
   // Upiór
 	{
 		"name": "Infected",
-		"uniques": "<Can transform to [Thrall]> <upon being defeated>",
 		"unitTypes": ["All"],
 	},
 	{
 		"name": "Bloodsucker",
+		"prerequisites": ["Infected"],
 		"uniques": ["Heals [25] damage if it kills a unit",
 				"[-100]% maintenance costs",
 				"[+50]% Strength <upon entering a new era>",
