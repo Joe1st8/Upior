@@ -1,9 +1,9 @@
 [
-  //
+  // Upiór
 	{
 		"name": "Infected",
 		"uniques": ["<upon being defeated>"],
-		"unitTypes": ["All"]",
+		"unitTypes": ["All"],
 	},
 	{
 		"name": "Bloodsucker",
