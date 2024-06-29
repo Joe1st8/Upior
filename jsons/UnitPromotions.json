@@ -42,13 +42,13 @@
 	{
 		"name": "Float",
 		"prerequisites": ["Speed"],
-		"uniques": ["Can pass through impassable tiles"],
+		"uniques": ["Can pass through impassable tiles, [+1] Sight"],
 		"unitTypes": ["Upiór"]
 	},	
 	{
 		"name": "Flight",
 		"prerequisites": ["Flight"],
-		"uniques": "[+2] Movement, [+1] Sight",
+		"uniques": "[+2] Movement, [+2] Sight",
 		"unitTypes": ["Upiór"],
 	},
 	{
