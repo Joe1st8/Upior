@@ -18,7 +18,7 @@
 		"movement": 3,
 		"strength": 1,
 		"cost": 25,
-		"uniques": ["Never appears as a Barbarian unit","Ignores terrain cost","Can pass through impassable tiles","Invisible to others"],
+		"uniques": ["Never appears as a Barbarian unit","Ignores terrain cost","Can pass through impassable tiles","Invisible to non-adjacent units"],
 		"upgradesTo": "Giant bat"
 	},
 	{	
