@@ -20,26 +20,20 @@
 	},
 		// Thrall
 	{
-		"name": "Thrall",
-		"uniques": [	"[-15]% maintenance costs",
+		"name": "Acolyte",
+		"uniques": [	"This Unit loses the [Infected] promotion",
+				"[-15]% maintenance costs",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
-				"[+25]% Strength"],
-		"unitTypes": ["Thrall"]
-	},
-	{
-		"name": "Upiór",
-		"prerequisites": ["Thrall"],
-		"uniques": [	"[-25]% maintenance costs",
-				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
-				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
-				"Can transform to [Acolyte]"],
+				"Can transform to [Strigoi]",
+				"Can transform to [Ubir]"],
 		"unitTypes": ["Thrall"]
 	},
 		// Strigoi
 	{
 		"name": "Strigoi",
-		"uniques": [	"[+50]% Strength <upon entering a new era>",
+		"uniques": [	"This Unit loses the [Acolyte] promotion",
+				"[+50]% Strength <upon entering a new era>",
 				"Heals [5] damage if it kills a unit",
 				"[-25]% maintenance costs",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
@@ -122,7 +116,8 @@
 		// Ubir
 	{
 		"name": "Ubir",
-		"uniques": [	"[+25]% Strength <upon entering a new era>",
+		"uniques": [	"This Unit loses the [Acolyte] promotion",
+				"[+25]% Strength <upon entering a new era>",
 				"[+10]% Strength <vs [Ranged] units> <when attacking>",
 				"[+10]% Strength <vs [Melee] units> <when attacking>",
 				"[-25]% maintenance costs",
