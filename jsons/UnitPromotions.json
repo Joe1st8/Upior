@@ -5,7 +5,7 @@
 	{
 		"name": "Bony",
 		"uniques": ["[+90]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Archery","Ranged Gunpowder","Armored","Siege"],
+		"unitTypes": ["Scout","Sword","Armored","Mounted","Archery","Gunpowder","Ranged Gunpowder","Siege"],
 	},
 	
 		// Thrall
@@ -15,7 +15,7 @@
 			"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
 			"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
 			"Can transform to [Thrall]"]
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Upiór"]
+		"unitTypes": ["Scout","Sword","Armored","Mounted","Archery","Gunpowder","Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Upiór"]
 	},
 	{
 		"name": "Acolyte",
@@ -42,7 +42,7 @@
 		"uniques": ["[-25]% maintenance costs",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
-				"Can transform to [Strigoi]"],
+				"Can transform to [Ubir]"],
 		"unitTypes": ["Upiór"]
 	},
 
