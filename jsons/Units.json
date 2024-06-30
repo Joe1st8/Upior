@@ -6,7 +6,7 @@
 		"uniqueTo": "Upióriç",
 		"replaces": "Worker",
 		"movement": 2,
-		"strength": 2,
+		"strength": 4,
 		"cost": 30,
 		"uniques": ["Never appears as a Barbarian unit","Can build [Land] improvements on tiles"],
 		"attackSound": "nonmetalhit",
