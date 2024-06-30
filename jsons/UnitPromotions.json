@@ -120,7 +120,7 @@
 
 			// Ubir
 	{
-		"name": "Mage 1",
+		"name": "Mage I",
 		"prerequisites": ["The path of the magicks"],
 		"uniques": ["",
 				"[-50]% maintenance costs",
