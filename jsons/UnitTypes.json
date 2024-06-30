@@ -5,7 +5,11 @@
         "movementType": "Land",
 	},
 	{  
-	"name": "Upiór",
+	"name": "Strigoi",
         "movementType": "Land",
 	}
+	{  
+	"name": "Ubir",
+        "movementType": "Land",
+	},
 ]
