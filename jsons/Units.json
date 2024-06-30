@@ -56,7 +56,7 @@
 		"uniques": ["Never appears as a Barbarian unit","Unbuildable"],
 		"upgradesTo": "Militia",
 		"attackSound": "nonmetalhit",
-		"civilopediaText": [{"text": "An untrained serf using improvised weapons."}]	
+		"civilopediaText": [{"text": "A serf called up to fight for their master using improvised weapons."}]
 	},
 	{
 		"name": "Militia",
@@ -68,7 +68,7 @@
 		"uniques": ["Never appears as a Barbarian unit","Unbuildable"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit",
-		"civilopediaText": [{"text": "A serf with rudimentary, but frequent training and basic, but professional weapons."}]	
+		"civilopediaText": [{"text": "A conscript with rudimentary, but frequent training and basic, but professional weapons."}]	
 	},
 	{
 		"name": "Thrall",
