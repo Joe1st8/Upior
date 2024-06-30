@@ -25,7 +25,7 @@
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
 				"[+25]% Strength"],
-		"unitTypes": ["Upiór"]
+		"unitTypes": ["Thrall"]
 	},
 	{
 		"name": "The path of the blood",
@@ -34,7 +34,7 @@
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
 				"Can transform to [Strigoi]"],
-		"unitTypes": ["Upiór"]
+		"unitTypes": ["Thrall"]
 	},
 	{
 		"name": "The path of the magicks",
@@ -43,7 +43,7 @@
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
 				"Can transform to [Ubir]"],
-		"unitTypes": ["Upiór"]
+		"unitTypes": ["Thrall"]
 	},
 
 		// Strigoi
