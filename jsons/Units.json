@@ -70,18 +70,6 @@
 		"civilopediaText": [{"text": "A serf with rudimentary, but frequent training and basic, but professional weapons."}]	
 	},
 	{
-		"name": "Dragovid",
-		"unitType": "Upiór",
-		"uniqueTo": "Upióriç",
-		"movement": 2,
-		"strength": 10,
-		"cost": 80,
-		"uniques": ["Never appears as a Barbarian unit","Unbuildable","Uncapturable"],
-		"promotions": ["Upiór"],
-		"attackSound": "nonmetalhit",
-		"civilopediaText": [{"text": "Thralls are mortals enchanted to do the bidding of their Strigoi masters, hoping for a chance at immortality."}]
-	},
-	{
 		"name": "Thrall",
 		"unitType": "Thrall",
 		"uniqueTo": "Upióriç",
@@ -95,9 +83,10 @@
 		"civilopediaText": [{"text": "Thralls are mortals enchanted to do the bidding of their Strigoi masters, hoping for a chance at immortality."}]
 	},
 	{
-		"name": "Strigoi",
-		"unitType": "Upiór",
+		"name": "Elder",
+		"unitType": "Strigoi",
 		"uniqueTo": "Upióriç",
+		"replaces": "Warrior",
 		"movement": 3,
 		"strength": 16,
 		"cost": 140,
@@ -105,10 +94,22 @@
 		"promotions": ["Strigoi"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "Strigoi are the most archetypical of the Upiór: powerful and intelligent, but insufferably arrogant and disconnected."}]
-	}
+	},
+	{
+		"name": "Strigoi",
+		"unitType": "Strigoi",
+		"uniqueTo": "Upióriç",
+		"movement": 3,
+		"strength": 12,
+		"cost": 140,
+		"uniques": ["Never appears as a Barbarian unit","Unbuildable","Uncapturable"],
+		"promotions": ["Strigoi"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [{"text": "Strigoi are the most archetypical of the Upiór: powerful and intelligent, but insufferably arrogant and disconnected."}]
+	},
 	{
 		"name": "Ubir",
-		"unitType": "Upiór",
+		"unitType": "Ubir",
 		"uniqueTo": "Upióriç",
 		"movement": 2,
 		"strength": 8,
