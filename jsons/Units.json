@@ -11,7 +11,7 @@
 		"uniques": ["Never appears as a Barbarian unit","Can build [Land] improvements on tiles"],
 		"upgradesTo": "Conscript",
 		"attackSound": "nonmetalhit",
-		"civilopediaText": [{"text": "Peasant of the ancestral lands, enchanted or forced to work for the lord of the land."}]
+		"civilopediaText": [{"text": "Peasant of the ancestral lands, enchanted or forced to work for the lord of the land, can only defend themself with the farming tools in their hands."}]
 	},
 	{		
 		"name": "Bat",
