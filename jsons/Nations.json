@@ -6,10 +6,10 @@
 		"startBias": ["Avoid [Desert]","Avoid [Snow]","Hill"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "Thirsty for new adventures, my liege?",
-		"startIntroPart2": "This is a nation of ancient bloodsucking beings, old and powerful, a compulsively hierarchical gerontocracy and consider themselves above all.",
+		"startIntroPart1": "Ready to lead us into greatness, my liege?",
+		"startIntroPart2": "This is a nation of ancient beings.",
 		
-		"declaringWar": "You might as well give up now, but i do like spicy food.",
+		"declaringWar": "War it is, then.",
 		"attacked": "I suppose we'll have to ready the peasants to fight.",
 		"defeated": "You have merely caused us a temporary setback.",
 		"introduction": "I'm busy, WHAT is it?",
