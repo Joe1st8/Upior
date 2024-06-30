@@ -33,6 +33,7 @@
 	{
 		"name": "Strigoi",
 		"uniques": [	"This Unit loses the [Acolyte] promotion",
+				"This Unit loses the [Ubir] promotion",
 				"[+50]% Strength <upon entering a new era>",
 				"Heals [5] damage if it kills a unit",
 				"[-25]% maintenance costs",
@@ -117,6 +118,7 @@
 	{
 		"name": "Ubir",
 		"uniques": [	"This Unit loses the [Acolyte] promotion",
+				"This Unit loses the [Strigoi] promotion",
 				"[+25]% Strength <upon entering a new era>",
 				"[+10]% Strength <vs [Ranged] units> <when attacking>",
 				"[+10]% Strength <vs [Melee] units> <when attacking>",
