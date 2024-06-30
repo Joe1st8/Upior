@@ -4,17 +4,18 @@
 		// Bone Army
 	{
 		"name": "Bony",
-		"uniques": ["[+90]% Strength <vs [Ranged] units> <when defending>","[-100]% maintenance costs"],
+		"uniques": [	"[+90]% Strength <vs [Ranged] units> <when defending>",
+				"[-100]% maintenance costs"],
 		"unitTypes": ["Scout","Sword","Armored","Mounted","Archery","Gunpowder","Ranged Gunpowder","Siege"],
 	},
 	
 		// Infected
 	{
 		"name": "Infected",
-		"uniques": ["[-10]% maintenance costs",
-			"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
-			"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
-			"Can transform to [Thrall]"]
+		"uniques": [	"[-10]% maintenance costs",
+				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
+				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
+				"Can transform to [Thrall]"]
 		"unitTypes": ["Scout","Sword","Armored","Mounted","Archery","Gunpowder","Ranged Gunpowder","Siege"]
 	},
 		// Thrall
@@ -39,7 +40,7 @@
 		// Strigoi
 	{
 		"name": "Strigoi",
-		"uniques": ["Heals [5] damage if it kills a unit",
+		"uniques": [	"Heals [5] damage if it kills a unit",
 				"[-25]% maintenance costs",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>",],
@@ -48,7 +49,7 @@
 	{
 		"name": "Bloodsucker I",
 		"prerequisites": ["Strigoi"],
-		"uniques": ["Heals [10] damage if it kills a unit",
+		"uniques": [	"Heals [10] damage if it kills a unit",
 				"[-50]% maintenance costs",
 				"[-20]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
 				"[-20]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
@@ -119,7 +120,9 @@
 		// Ubir
 	{
 		"name": "Ubir",
-		"uniques": ["[-25]% maintenance costs",
+		"uniques": [	"[+10]% Strength <vs [Ranged] units> <when attacking>",
+				"[+10]% Strength <vs [Melee] units> <when attacking>",
+				"[-25]% maintenance costs",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>",],
 		"unitTypes": ["Upiór"]
@@ -127,8 +130,8 @@
 	{
 		"name": "Mage I",
 		"prerequisites": ["Ubir"],
-		"uniques": [	"[+90]% Strength <vs [Ranged] units> <when attacking>",
-				"[+90]% Strength <vs [Melee] units> <when attacking>",
+		"uniques": [	"[+10]% Strength <vs [Ranged] units> <when attacking>",
+				"[+10]% Strength <vs [Melee] units> <when attacking>",
 				"[-50]% maintenance costs",
 				"[-20]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
 				"[-20]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
