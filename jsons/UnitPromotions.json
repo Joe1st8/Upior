@@ -33,8 +33,7 @@
 		"uniques": [	"[-25]% maintenance costs",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
-				"Can transform to [Strigoi]",
-				"Can transform to [Ubir]"],
+				"Can transform to [Acolyte]"],
 		"unitTypes": ["Thrall"]
 	},
 		// Strigoi
