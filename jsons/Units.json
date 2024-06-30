@@ -7,7 +7,7 @@
 		"replaces": "Worker",
 		"movement": 2,
 		"strength": 2,
-		"cost": 40,
+		"cost": 30,
 		"uniques": ["Never appears as a Barbarian unit","Can build [Land] improvements on tiles"],
 		"upgradesTo": "Conscript",
 		"attackSound": "nonmetalhit",
