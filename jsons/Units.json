@@ -91,7 +91,7 @@
 		"uniques": ["Never appears as a Barbarian unit","Unbuildable","Uncapturable"],
 		"promotions": ["Strigoi"],
 		"attackSound": "nonmetalhit",
-		"civilopediaText": [{"text": "Strigoi are the most archetypical of the Upiór as powerful creatures of the night."}]
+		"civilopediaText": [{"text": "The elder Strigoi, first of his kind."}]
 	},
 	{
 		"name": "Strigoi",
