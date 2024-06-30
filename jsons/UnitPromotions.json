@@ -4,7 +4,7 @@
 		// Bone Army
 	{
 		"name": "Bony",
-		"uniques": ["[+90]% Strength <vs [Ranged] units> <when defending>"],
+		"uniques": ["[+90]% Strength <vs [Ranged] units> <when defending>","[-100]% maintenance costs"],
 		"unitTypes": ["Scout","Sword","Armored","Mounted","Archery","Gunpowder","Ranged Gunpowder","Siege"],
 	},
 	
