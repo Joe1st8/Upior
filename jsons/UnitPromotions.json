@@ -15,7 +15,7 @@
 		"uniques": [	"[-10]% maintenance costs",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
-				"Can transform to [Thrall] <when defeated>"]
+				"Can transform to [Thrall] <upon being defeated>"]
 		"unitTypes": ["Scout","Sword","Armored","Mounted","Archery","Gunpowder","Ranged Gunpowder","Siege"]
 	},
 		// Thrall
