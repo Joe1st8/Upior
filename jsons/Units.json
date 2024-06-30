@@ -16,6 +16,7 @@
 		"uniqueTo": "Upióriç",
 		"replaces": "Scout",
 		"movement": 3,
+		"strength": 1,
 		"cost": 25,
 		"uniques": ["Never appears as a Barbarian unit","Ignores terrain cost","Can pass through impassable tiles","Invisible to others"],
 		"upgradesTo": "Giant bat"
