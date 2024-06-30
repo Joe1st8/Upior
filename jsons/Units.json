@@ -7,7 +7,7 @@
 		"replaces": "Worker",
 		"movement": 2,
 		"cost": 70,
-		"uniques": ["Can build [Land] improvements on tiles"],
+		"uniques": ["Never appears as a Barbarian unit","Can build [Land] improvements on tiles"],
 		"civilopediaText": [{"text": "Peasants of the ancestral lands, enchanted or forced to work for the lord of the land."}]
 	},
 	{		
@@ -17,7 +17,7 @@
 		"replaces": "Scout",
 		"movement": 3,
 		"cost": 25,
-		"uniques": ["Ignores terrain cost","Can pass through impassable tiles","Invisible to others"],
+		"uniques": ["Never appears as a Barbarian unit","Ignores terrain cost","Can pass through impassable tiles","Invisible to others"],
 		"upgradesTo": "Giant bat"
 	},
 	{	
@@ -27,7 +27,7 @@
 		"movement": 3,
 		"strength": 4,
 		"cost": 40,
-		"uniques": ["Unbuildable","Never appears as a Barbarian unit","Ignores terrain cost","Can pass through impassable tiles"],
+		"uniques": ["Never appears as a Barbarian unit","Unbuildable","Ignores terrain cost","Can pass through impassable tiles"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -37,7 +37,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"obsoleteTech": "Metal Casting",
+		"uniques": ["Never appears as a Barbarian unit","Unbuildable"],
 		"promotions": ["Bony"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "Raised skeletons are quite difficult to hit at range."}]
@@ -49,6 +49,7 @@
 		"movement": 2,
 		"strength": 4,
 		"cost": 20,
+		"uniques": ["Never appears as a Barbarian unit"],
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Militia",
 		"attackSound": "nonmetalhit",
@@ -61,7 +62,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"uniques": ["Unbuildable"],
+		"uniques": ["Never appears as a Barbarian unit","Unbuildable"],
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit",
@@ -75,7 +76,7 @@
 		"movement": 2,
 		"strength": 10,
 		"cost": 80,
-		"uniques": ["Uncapturable","Unbuildable"],
+		"uniques": ["Never appears as a Barbarian unit","Unbuildable","Uncapturable"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "Thralls are mortals enchanted to do the bidding of their Strigoi masters, hoping for a chance at immortality."}]
 	},
@@ -86,7 +87,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 80,
-		"uniques": ["Uncapturable","Unbuildable"],
+		"uniques": ["Never appears as a Barbarian unit","Unbuildable","Uncapturable"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "Thralls are mortals enchanted to do the bidding of their Strigoi masters, hoping for a chance at immortality."}]	},
 	{
@@ -96,7 +97,7 @@
 		"movement": 3,
 		"strength": 16,
 		"cost": 140,
-		"uniques": ["Uncapturable","Unbuildable"],
+		"uniques": ["Never appears as a Barbarian unit","Unbuildable","Uncapturable"],
 		"promotions": ["Strigoi"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "Strigoi are the most archetypical of the Upiór: powerful and intelligent, but insufferably arrogant and disconnected."}]
@@ -109,7 +110,7 @@
 		"strength": 8,
 		"rangedStrength": 10,
 		"cost": 140,
-		"uniques": ["Uncapturable","Unbuildable"],
+		"uniques": ["Never appears as a Barbarian unit","Unbuildable","Uncapturable"],
 		"promotions": ["Ubir"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "Strigoi are the most archetypical of the Upiór: powerful and refined, but insufferably arrogant and disconnected."}]
