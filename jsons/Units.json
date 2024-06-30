@@ -73,7 +73,6 @@
 		"name": "Thrall",
 		"unitType": "Thrall",
 		"uniqueTo": "Upióriç",
-		"replaces": "Warrior",
 		"movement": 2,
 		"strength": 8,
 		"cost": 80,
