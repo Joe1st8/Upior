@@ -128,7 +128,7 @@
 				"[+25]% Strength <upon entering a new era>",
 				"[-90]% Strength <vs [Melee] units> <when defending>",
 				"[-100]% maintenance costs",
-				"[-25]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
+				"[-50]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
 				"[-50]% Strength <when fighting in [Foreign Land] tiles> <when defending>"],
 		"unitTypes": ["Ubir"]
 	},
