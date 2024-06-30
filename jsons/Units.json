@@ -1,11 +1,12 @@
 [
 	/* Ancient Era */
 	{
-		"name": "Peasant",
+		"name": "Serf",
 		"unitType": "Civilian",
 		"uniqueTo": "Upióriç",
 		"replaces": "Worker",
 		"movement": 2,
+		"strength": 1,
 		"cost": 70,
 		"uniques": ["Never appears as a Barbarian unit","Can build [Land] improvements on tiles"],
 		"civilopediaText": [{"text": "Peasants of the ancestral lands, enchanted or forced to work for the lord of the land."}]
