@@ -68,7 +68,7 @@
 	},
 	{
 		"name": "Thrall",
-		"unitType": "Upiór",
+		"unitType": "Thrall",
 		"uniqueTo": "Upióriç",
 		"replaces": "Warrior",
 		"movement": 2,
