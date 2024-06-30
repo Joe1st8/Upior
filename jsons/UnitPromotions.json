@@ -127,7 +127,7 @@
 				"[+10]% Strength <vs [Melee] units> <when attacking>",
 				"[-25]% maintenance costs",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
-				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>",],
+				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>"],
 		"unitTypes": ["Upiór"]
 	},
 	{
