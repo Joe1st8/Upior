@@ -14,6 +14,7 @@
 		"name": "Bat",
 		"unitType": "Scout",
 		"uniqueTo": "Upióriç",
+		"replaces": "Scout",
 		"movement": 3,
 		"cost": 25,
 		"uniques": ["Ignores terrain cost","Can pass through impassable tiles","Invisible to others"],
