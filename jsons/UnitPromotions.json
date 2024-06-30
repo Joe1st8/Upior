@@ -21,7 +21,7 @@
 		// Thrall
 	{
 		"name": "Thrall",
-		"uniques": ["[-15]% maintenance costs",
+		"uniques": [	"[-15]% maintenance costs",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
 				"[+25]% Strength"],
@@ -30,7 +30,7 @@
 	{
 		"name": "Acolyte",
 		"prerequisites": ["Thrall"],
-		"uniques": ["[-25]% maintenance costs",
+		"uniques": [	"[-25]% maintenance costs",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
 				"Can upgrade to [Strigoi]",
@@ -59,61 +59,64 @@
 	{
 		"name": "Bloodsucker II",
 		"prerequisites": ["Bloodsucker I"],
-		"uniques": ["Heals [15] damage if it kills a unit"],
+		"uniques": [	"Heals [15] damage if it kills a unit"],
 		"unitTypes": ["Upiór"]
 	},
 	{
 		"name": "Bloodsucker III",
 		"prerequisites": ["Bloodsucker II"],
-		"uniques": ["Heals [20] damage if it kills a unit"],
+		"uniques": [	"Heals [20] damage if it kills a unit"],
 		"unitTypes": ["Upiór"]
 	},
 	{    	
 		"name": "Enthrall I",
 		"prerequisites": ["Strigoi"],
-		"uniques": ["May capture killed [Military] units <with [25]% chance>"],
+		"uniques": [	"May capture killed [Military] units <with [25]% chance>"],
 		"unitTypes": ["Upiór"]
 	},	
 	{
 		"name": "Enthrall II",
 		"prerequisites": ["Enthrall I"],
-		"uniques": ["May capture killed [Military] units <with [50]% chance>"],
+		"uniques": [	"May capture killed [Military] units <with [50]% chance>"],
 		"unitTypes": ["Upiór"]
 	},	
 	{	
 		"name": "Enthrall III",
 		"prerequisites": ["Enthrall II"],
-		"uniques": ["May capture killed [Military] units <with [75]% chance>"],
+		"uniques": [	"May capture killed [Military] units <with [75]% chance>"],
 		"unitTypes": ["Upiór"]
 	},	
 	{	
 		"name": "Speed",
 		"prerequisites": ["Strigoi"],
-		"uniques": ["[+1] Movement", "Ignores terrain cost"],
+		"uniques": [	"[+1] Movement",
+				"Ignores terrain cost"],
 		"unitTypes": ["Upiór"]
 	},	
 	{
 		"name": "Hover",
 		"prerequisites": ["Speed"],
-		"uniques": ["Can pass through impassable tiles", "[+1] Sight"],
+		"uniques": [	"Can pass through impassable tiles",
+				"[+1] Sight"],
 		"unitTypes": ["Upiór"]
 	},	
 	{
 		"name": "Soar",
 		"prerequisites": ["Hover"],
-		"uniques": ["[+1] Movement"],
+		"uniques": [	"[+1] Movement"],
 		"unitTypes": ["Upiór"],
 	},
 	{
 		"name": "Flight",
 		"prerequisites": ["Soar"],
-		"uniques": ["[+2] Movement", "[+1] Sight"],
+		"uniques": [	"[+2] Movement",
+				"[+1] Sight"],
 		"unitTypes": ["Upiór"],
 	},
 	{
 		"name": "Terrifying aura",
 		"prerequisites": ["Strigoi"],
-		"uniques": ["[-10]% Strength for enemy [All] units in adjacent [All] tiles"],
+		"uniques": [	"[-10]% Strength for enemy [All] units in adjacent [All] tiles"],
 		"unitTypes": ["Upiór"]
 	},
 
