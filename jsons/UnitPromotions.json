@@ -20,7 +20,6 @@
 		// Thrall
 	{
 		"name": "Thrall",
-		"prerequisites": ["Infected"],
 		"uniques": ["[-15]% maintenance costs",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
