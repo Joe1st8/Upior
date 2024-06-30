@@ -89,7 +89,7 @@
 		"uniques": ["Uncapturable"],
 		"promotions": ["Infected","Acolyte","The path of the blood"],
 		"attackSound": "nonmetalhit",
-		"civilopediaText": [{"text": "Strigoi are the most archetypical of the Upiór: powerful and refined, but insufferably arrogant and disconnected."}]
+		"civilopediaText": [{"text": "Strigoi are the most archetypical of the Upiór: powerful and intelligent, but insufferably arrogant and disconnected."}]
 	}
 	{
 		"name": "Ubir",
