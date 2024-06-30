@@ -21,32 +21,31 @@
 		// Thrall
 	{
 		"name": "Acolyte",
-		"uniques": [	"This Unit loses the [Infected] promotion",
-				"[-15]% maintenance costs",
-				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
-				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
-				"Can transform to [Strigoi]",
+		"uniques": [	"This Unit loses the [Infected] promotion"],
+		"unitTypes": ["Thrall"]
+	},
+	{
+		"name": "Rites of ascension",
+		"prerequisites": ["Acolyte"],
+		"uniques": [	"Can transform to [Strigoi]",
 				"Can transform to [Ubir]"],
 		"unitTypes": ["Thrall"]
 	},
+
 		// Strigoi
 	{
 		"name": "Strigoi",
 		"uniques": [	"This Unit loses the [Acolyte] promotion",
 				"[+50]% Strength <upon entering a new era>",
 				"Heals [5] damage if it kills a unit",
-				"[-25]% maintenance costs",
-				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
-				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>"],
+				"[-100]% maintenance costs",
+				"[-50]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
+				"[-50]% Strength <when fighting in [Foreign Land] tiles> <when defending>"],
 		"unitTypes": ["Strigoi"]
 	},
 	{
 		"name": "Bloodsucker I",
-		"prerequisites": ["Strigoi"],
-		"uniques": [	"Heals [10] damage if it kills a unit",
-				"[-50]% maintenance costs",
-				"[-20]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
-				"[-20]% Strength <when fighting in [Foreign Land] tiles> <when defending>",],
+		"uniques": [	"Heals [10] damage if it kills a unit"],
 		"unitTypes": ["Strigoi"]
 	},
 	{
@@ -63,7 +62,6 @@
 	},
 	{    	
 		"name": "Enthrall I",
-		"prerequisites": ["Strigoi"],
 		"uniques": [	"May capture killed [Military] units <with [25]% chance>"],
 		"unitTypes": ["Strigoi"]
 	},	
@@ -81,7 +79,6 @@
 	},	
 	{	
 		"name": "Speed",
-		"prerequisites": ["Strigoi"],
 		"uniques": [	"[+1] Movement",
 				"Ignores terrain cost"],
 		"unitTypes": ["Strigoi"]
@@ -107,8 +104,19 @@
 		"unitTypes": ["Strigoi"],
 	},
 	{
-		"name": "Terrifying aura",
-		"prerequisites": ["Strigoi"],
+		"name": "Terrifying aura I",
+		"uniques": [	"[-10]% Strength for enemy [All] units in adjacent [All] tiles"],
+		"unitTypes": ["Strigoi"]
+	},
+	{
+		"name": "Terrifying aura II",
+		"prerequisites": ["Terrifying aura I"],
+		"uniques": [	"[-10]% Strength for enemy [All] units in adjacent [All] tiles"],
+		"unitTypes": ["Strigoi"]
+	},
+	{
+		"name": "Terrifying aura III",
+		"prerequisites": ["Terrifying aura II"],
 		"uniques": [	"[-10]% Strength for enemy [All] units in adjacent [All] tiles"],
 		"unitTypes": ["Strigoi"]
 	},
@@ -118,21 +126,31 @@
 		"name": "Ubir",
 		"uniques": [	"This Unit loses the [Acolyte] promotion",
 				"[+25]% Strength <upon entering a new era>",
-				"[+10]% Strength <vs [Ranged] units> <when attacking>",
-				"[+10]% Strength <vs [Melee] units> <when attacking>",
-				"[-25]% maintenance costs",
-				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
-				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>"],
+				"[-90]% Strength <vs [Melee] units> <when defending>",
+				"[-100]% maintenance costs",
+				"[-25]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
+				"[-50]% Strength <when fighting in [Foreign Land] tiles> <when defending>"],
 		"unitTypes": ["Ubir"]
 	},
 	{
 		"name": "Mage I",
-		"prerequisites": ["Ubir"],
 		"uniques": [	"[+10]% Strength <vs [Ranged] units> <when attacking>",
 				"[+10]% Strength <vs [Melee] units> <when attacking>",
-				"[-50]% maintenance costs",
-				"[-20]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
-				"[-20]% Strength <when fighting in [Foreign Land] tiles> <when defending>"],
+				"[-50]% maintenance costs"],
 		"unitTypes": ["Ubir"]
 	},
+	{
+		"name": "Mage II",
+		"prerequisites": ["Mage I"],
+		"uniques": [	"[+10]% Strength <vs [Ranged] units> <when attacking>",
+				"[+10]% Strength <vs [Melee] units> <when attacking>"],
+		"unitTypes": ["Ubir"]
+	},
+	{
+		"name": "Mage III",
+		"prerequisites": ["Mage II"],
+		"uniques": [	"[+10]% Strength <vs [Ranged] units> <when attacking>",
+				"[+10]% Strength <vs [Melee] units> <when attacking>"],
+		"unitTypes": ["Ubir"]
+	}
 ]
