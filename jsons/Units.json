@@ -93,7 +93,7 @@
 		"uniques": ["Never appears as a Barbarian unit","Unbuildable","Uncapturable"],
 		"promotions": ["Strigoi"],
 		"attackSound": "nonmetalhit",
-		"civilopediaText": [{"text": "Strigoi are the most archetypical of the Upiór: powerful and intelligent, but insufferably arrogant and disconnected."}]
+		"civilopediaText": [{"text": "Strigoi are the most archetypical of the Upiór as powerful creatures of the night."}]
 	},
 	{
 		"name": "Strigoi",
@@ -105,7 +105,7 @@
 		"uniques": ["Never appears as a Barbarian unit","Unbuildable","Uncapturable"],
 		"promotions": ["Strigoi"],
 		"attackSound": "nonmetalhit",
-		"civilopediaText": [{"text": "Strigoi are the most archetypical of the Upiór: powerful and intelligent, but insufferably arrogant and disconnected."}]
+		"civilopediaText": [{"text": "Strigoi are the most archetypical of the Upiór as terrifying creatures of the night."}]
 	},
 	{
 		"name": "Ubir",
@@ -118,6 +118,6 @@
 		"uniques": ["Never appears as a Barbarian unit","Unbuildable","Uncapturable"],
 		"promotions": ["Ubir"],
 		"attackSound": "nonmetalhit",
-		"civilopediaText": [{"text": "Strigoi are the most archetypical of the Upiór: powerful and refined, but insufferably arrogant and disconnected."}]
+		"civilopediaText": [{"text": "Ubir are powerful mages, fielding armies of the undead."}]
 	}
 ]
