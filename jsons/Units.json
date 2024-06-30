@@ -77,6 +77,7 @@
 		"strength": 10,
 		"cost": 80,
 		"uniques": ["Never appears as a Barbarian unit","Unbuildable","Uncapturable"],
+		"promotions": ["Upiór"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "Thralls are mortals enchanted to do the bidding of their Strigoi masters, hoping for a chance at immortality."}]
 	},
