@@ -5,7 +5,7 @@
 	{
 		"name": "Bony",
 		"uniques": ["[+90]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Archery","Ranged Gunpowder","Armored","Siege"],
 	},
 	
 		// Thrall
