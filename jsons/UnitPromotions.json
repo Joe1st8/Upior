@@ -102,21 +102,21 @@
 	},	
 	{	
 		"name": "Speed I",
-		"uniques": [	"[+1] Movement",
-				"Ignores terrain cost"],
+		"uniques": [	"[+1] Movement"],
 		"unitTypes": ["Strigoi"]
 	},	
 	{	
 		"name": "Speed II",
 		"prerequisites": ["Speed I"],
-		"uniques": [	"[+1] Movement",
-				"Ignores terrain cost"],
+		"prerequisites": ["Flight I"]
+		"uniques": [	"[+1] Movement"],
 		"unitTypes": ["Strigoi"]
 	},	
 	{	
 		"name": "Speed III",
 		"prerequisites": ["Speed II"],
-		"uniques": [	"[+1] Movement",],
+		"prerequisites": ["Flight II"],
+		"uniques": [	"[+1] Movement"],
 		"unitTypes": ["Strigoi"]
 	},	
 	{
@@ -128,28 +128,31 @@
 	},	
 	{
 		"name": "Flight II",
-		"prerequisites": ["Flight I"],
-		"prerequisites": ["Speed II"],
+		"prerequisites": ["Flight I", "Speed II"],
 		"uniques": [	"Can see over obstacles",
 				"[+1] Sight"],
 		"unitTypes": ["Strigoi"],
 	},
 	{
 		"name": "Flight III",
-		"prerequisites": ["Flight II"],
-		"prerequisites": ["Speed III"],
+		"prerequisites": ["Flight II", "Speed III"],
 		"uniques": [	"Can pass through impassable tiles",
 				"[+1 Sight]"],
 		"unitTypes": ["Strigoi"],
 	},
 	{
-		"name": "Blitz",
+		"name": "Shadow I",
 		"prerequisites": ["Flight III"],
-		"uniques": [	"Can pass through impassable tiles",
-				"[+1 Sight]"],
+		"uniques": [	 "Can move after attack"],
 		"unitTypes": ["Strigoi"],
 	},
 	{
+		"name": "Shadow II",
+		"prerequisites": ["Shadow I"],
+		"uniques": [	 "Can move after attack"],
+		"unitTypes": ["Strigoi"],
+	},
+		{
 		"name": "Terrifying aura I",
 		"uniques": [	"[-10]% Strength for enemy [All] units in adjacent [All] tiles"],
 		"unitTypes": ["Strigoi"]
@@ -181,8 +184,7 @@
 	{
 		"name": "Mage I",
 		"uniques": [	"[+10]% Strength <vs [Ranged] units> <when attacking>",
-				"[+10]% Strength <vs [Melee] units> <when attacking>",
-				"[-50]% maintenance costs"],
+				"[+10]% Strength <vs [Melee] units> <when attacking>"],
 		"unitTypes": ["Ubir"]
 	},
 	{
@@ -198,5 +200,23 @@
 		"uniques": [	"[+10]% Strength <vs [Ranged] units> <when attacking>",
 				"[+10]% Strength <vs [Melee] units> <when attacking>"],
 		"unitTypes": ["Ubir"]
-	}
+	},
+	{
+		"name": "Range I",
+		"prerequisites": ["Mage III"],
+		"uniques": [	"[+1] Range"],
+		"unitTypes": ["Ubir"]
+	}	
+	{
+		"name": "Range II",
+		"prerequisites": ["Range I"],
+		"uniques": [	"[+1] Range"],
+		"unitTypes": ["Ubir"]
+	}		{
+		"name": "Range III",Range II
+		"prerequisites": ["Mage III"],
+		"uniques": [	"Ranged attacks may be performed over obstacles"],
+		"unitTypes": ["Ubir"]
+	}	
+
 ]
