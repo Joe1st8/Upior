@@ -262,8 +262,8 @@
 	},	
 	{
 		"name": "Evade I",
-		"prerequisites": ["Strigoi"],
-		"uniques": [	"Withdraws before melee combat <with [25]% chance>"],
+		"prerequisites": ["Strigoi"],		
+		"uniques": ["Withdraws before melee combat <with [80]% chance>"]
 		"unitTypes": ["Ubir"]
 	},	
 	{
