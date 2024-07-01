@@ -10,12 +10,22 @@
 	
 		// Conscript
 	{
+		"name": "Conscript",
+		"uniques": [	"This Unit loses the [Still standing] promotion"],
+		"unitTypes": ["Conscript"],
+	},
+	{
 		"name": "Survive another day",
 		"uniques": [	"Can transform to [Militia]"],
 		"unitTypes": ["Conscript"],
 	},
 		
 		// Militia
+	{
+		"name": "Militia",
+		"uniques": [	"This Unit loses the [Survive another day] promotion"],
+		"unitTypes": ["Militia"],
+	},
 	{
 		"name": "Payday",
 		"uniques": [	"Can transform to [Swordsman]"],
