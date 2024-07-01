@@ -43,8 +43,7 @@
 		// Infected
 	{
 		"name": "Infected",
-		"uniques": [	"[-10]% maintenance costs",
-				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
+		"uniques": [	"[-10]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
 				"[-10]% Strength <when fighting in [Foreign Land] tiles> <when defending>",
 				"Heal this unit by [50] HP <upon being defeated>",
 				"Can transform to [Thrall] <upon being defeated>"]
@@ -53,14 +52,15 @@
 	
 		// Thrall
 	{
-		"name": "Acolyte",
-		"uniques": [	"This Unit loses the [Infected] promotion"],
+		"name": "Thrall",
+		"uniques": [	"[-10]% maintenance costs",
+				"This Unit loses the [Infected] promotion"],
 		"unitTypes": ["Thrall"]
 	},
 	{
 		"name": "Rites of ascension",
-		"prerequisites": ["Acolyte"],
-		"uniques": [	"This Unit loses the [Acolyte] promotion",
+		"prerequisites": ["Thrall"],
+		"uniques": [	"This Unit loses the [Thrall] promotion",
 				"Can transform to [Strigoi]",
 				"Can transform to [Ubir]"],
 		"unitTypes": ["Thrall"]
