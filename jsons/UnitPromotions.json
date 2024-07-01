@@ -1,23 +1,24 @@
 [
 	// Upiór
+	
 		// Serf
 	{
 		"name": "Still standing",
-		"uniques": [		"Can transform to [Conscript]"],
+		"uniques": [	"Can transform to [Conscript]"],
 		"unitTypes": ["Serf"],
 	},
 	
-		// Serf
+		// Conscript
 	{
 		"name": "Survive another day",
-		"uniques": [		"Can transform to [Militia]"],
+		"uniques": [	"Can transform to [Militia]"],
 		"unitTypes": ["Conscript"],
 	},
-	
+		
 		// Militia
 	{
 		"name": "Payday",
-		"uniques": [		"Can transform to [Swordsman]"],
+		"uniques": [	"Can transform to [Swordsman]"],
 		"unitTypes": ["Militia"],
 	},
 	
@@ -60,6 +61,7 @@
 		"uniques": [	"This Unit loses the [Rites of ascension] promotion",				
 				"[+50]% Strength <upon entering a new era>",
 				"Heals [5] damage if it kills a unit",
+				"[+5] HP when healing <in [Friendly Land]>",
 			<upon defeating a [Wounded] unit>
 				"[-100]% maintenance costs",
 				"[-50]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
@@ -73,31 +75,49 @@
 	},
 	{
 		"name": "Bloodsucker II",
-		"prerequisites": ["Bloodsucker I"],
+		"prerequisites": ["Bloodsucker I","Resilience I"],
 		"uniques": [	"Heals [15] damage if it kills a unit"],
 		"unitTypes": ["Strigoi"]
 	},
 	{
 		"name": "Bloodsucker III",
-		"prerequisites": ["Bloodsucker II"],
+		"prerequisites": ["Bloodsucker II","Resilience II"],
 		"uniques": [	"Heals [20] damage if it kills a unit"],
 		"unitTypes": ["Strigoi"]
 	},
 	{    	
+		"name": "Resilience I",
+		"prerequisites": ["Bloodsucker I"],
+		"uniques": [	"[+5] HP when healing <in [Friendly Land]>"],
+		"unitTypes": ["Strigoi"]
+	},	
+	{
+		"name": "Resilience II",
+		"prerequisites": ["Resilience I","Bloodsucker II"],
+		"uniques": [	"[+10] HP when healing <in [Friendly Land]>"],
+		"unitTypes": ["Strigoi"]
+	},	
+	{	
+		"name": "Resilience III",
+		"prerequisites": ["Resilience II","Bloodsucker III"],
+		"uniques": [	"Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Strigoi"]
+	},	
+	{	
 		"name": "Enthrall I",
 		"uniques": [	"May capture killed [Military] units <with [25]% chance>"],
 		"unitTypes": ["Strigoi"]
 	},	
-	{
+	{	
 		"name": "Enthrall II",
 		"prerequisites": ["Enthrall I"],
-		"uniques": [	"May capture killed [Military] units <with [50]% chance>"],
+		"uniques": [	"May capture killed [Military] units <with [25]% chance>"],
 		"unitTypes": ["Strigoi"]
 	},	
 	{	
 		"name": "Enthrall III",
 		"prerequisites": ["Enthrall II"],
-		"uniques": [	"May capture killed [Military] units <with [75]% chance>"],
+		"uniques": [	"May capture killed [Military] units <with [25]% chance>"],
 		"unitTypes": ["Strigoi"]
 	},	
 	{	
@@ -122,8 +142,8 @@
 	{
 		"name": "Flight I",
 		"prerequisites": ["Speed I"],
-		"uniques": [	"Ignores terrain cost",,
-				"Can see invisible [Military] units"
+		"uniques": [	"Ignores terrain cost",
+				"Can see invisible [Military] units",
 				"[+1] Sight"],
 		"unitTypes": ["Strigoi"]
 	},	
@@ -148,7 +168,8 @@
 	{
 		"name": "Shadow I",
 		"prerequisites": ["Flight III"],
-		"uniques": [	"May enter foreign tiles without open borders"],
+		"uniques": [	"Invisible to others",
+				"May enter foreign tiles without open borders"],
 		"unitTypes": ["Strigoi"],
 	},
 	{
@@ -160,7 +181,7 @@
 	{
 		"name": "Shadow III",
 		"prerequisites": ["Shadow II"],
-		"uniques": [	 "Can move after attack"],
+		"uniques": [	 "[1] additional attacks per turn"],
 		"unitTypes": ["Strigoi"],
 	},
 	{
@@ -185,6 +206,7 @@
 	{
 		"name": "Ubir",
 		"uniques": [	"This Unit loses the [Rites of ascension] promotion",
+				"[+10] HP when healing <in [Friendly Land]>",
 				"[+25]% Strength <upon entering a new era>",
 				"[-90]% Strength <vs [Melee] units> <when defending>",
 				"[-100]% maintenance costs",
@@ -217,17 +239,34 @@
 		"prerequisites": ["Mage I"],
 		"uniques": [	"[+1] Range"],
 		"unitTypes": ["Ubir"]
-	}	
+	},	
 	{
 		"name": "Range II",
 		"prerequisites": ["Range I","Mage II"],
 		"uniques": [	"[+1] Range"],
 		"unitTypes": ["Ubir"]
-	}		
+	},		
 	{
 		"name": "Range III",
 		"prerequisites": ["Range II","Mage III"],
 		"uniques": [	"Ranged attacks may be performed over obstacles"],
 		"unitTypes": ["Ubir"]
-	}	
+	},	
+	{
+		"name": "Evade I",
+		"uniques": [	"Withdraws before melee combat <with [25]% chance>"],
+		"unitTypes": ["Ubir"]
+	},	
+	{
+		"name": "Evade II",
+		"prerequisites": ["Evade I"],
+		"uniques": [	"Withdraws before melee combat <with [25]% chance>"],
+		"unitTypes": ["Ubir"]
+	},	
+	{
+		"name": "Evade III",
+		"prerequisites": ["Evade II"],
+		"uniques": [	"Withdraws before melee combat <with [25]% chance>"],
+		"unitTypes": ["Ubir"]
+	}		
 ]
