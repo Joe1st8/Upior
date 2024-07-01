@@ -4,7 +4,8 @@
 		// Serf
 	{
 		"name": "Still standing",
-		"uniques": [	"Can transform to [Conscript]"],
+		"uniques": [	"Can transform to [Conscript]",
+				"This Unit gains the [Infected] promotion"],
 		"unitTypes": ["Serf"],
 	},
 	
