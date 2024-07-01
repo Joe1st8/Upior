@@ -184,14 +184,15 @@
 	{
 		"name": "Shadow I",
 		"prerequisites": ["Flight III"],
-		"uniques": [	"Invisible to others",
+		"uniques": [	"Invisible to non-adjacent units",
 				"May enter foreign tiles without open borders"],
 		"unitTypes": ["Strigoi"],
 	},
 	{
 		"name": "Shadow II",
 		"prerequisites": ["Shadow I"],
-		"uniques": [	 "Can move after attacking"],
+		"uniques": [	"Invisible to others",
+				"Can move after attacking"],
 		"unitTypes": ["Strigoi"],
 	},
 	{
