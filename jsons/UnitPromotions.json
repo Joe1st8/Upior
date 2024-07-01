@@ -130,6 +130,7 @@
 		"name": "Flight II",
 		"prerequisites": ["Flight I", "Speed II"],
 		"uniques": [	"Can see over obstacles",
+				"Eliminates combat penalty for attacking over a river",
 				"[+1] Sight"],
 		"unitTypes": ["Strigoi"],
 	},
@@ -137,13 +138,15 @@
 		"name": "Flight III",
 		"prerequisites": ["Flight II", "Speed III"],
 		"uniques": [	"Can pass through impassable tiles",
+				"Eliminates combat penalty for attacking across a coast",
+				"May travel on Water tiles without embarking",
 				"[+1 Sight]"],
 		"unitTypes": ["Strigoi"],
 	},
 	{
 		"name": "Shadow I",
 		"prerequisites": ["Flight III"],
-		"uniques": [	 "Can move after attack"],
+		"uniques": [	 "Can see invisible [Military] units"],
 		"unitTypes": ["Strigoi"],
 	},
 	{
@@ -152,7 +155,13 @@
 		"uniques": [	 "Can move after attack"],
 		"unitTypes": ["Strigoi"],
 	},
-		{
+	{
+		"name": "Shadow III",
+		"prerequisites": ["Shadow II"],
+		"uniques": [	 "Can move after attack"],
+		"unitTypes": ["Strigoi"],
+	},
+	{
 		"name": "Terrifying aura I",
 		"uniques": [	"[-10]% Strength for enemy [All] units in adjacent [All] tiles"],
 		"unitTypes": ["Strigoi"]
