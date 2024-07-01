@@ -60,7 +60,8 @@
 		// Strigoi
 	{
 		"name": "Strigoi",
-		"uniques": [	"This Unit loses the [Rites of ascension] promotion",				
+		"uniques": [	"May capture killed [Land] units <with [100]% chance>",
+				"This Unit loses the [Rites of ascension] promotion",				
 				"[+50]% Strength <upon entering a new era>",
 				"Heals [5] damage if it kills a unit",
 				"[+5] HP when healing <in [Friendly Land] tiles>",
