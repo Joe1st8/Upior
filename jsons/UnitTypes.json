@@ -9,23 +9,17 @@
       	{  
 	"name": "Serf",
         "movementType": "Land",
-        "uniques": [	"Can transform to [Thrall] <upon being defeated>",
-			"This Unit gains the [Infected] promotion <upon being killed> <when adjacent to a [Strigoi] unit>",
-			"This Unit gains the [Infected] promotion <upon being killed> <when adjacent to a [Ubir] unit>"]
+        "uniques": [	"Can transform to [Thrall] <upon being defeated>"]
 	},
       	{  
 	"name": "Conscript",
         "movementType": "Land",
-        "uniques": [	"Can transform to [Thrall] <upon being defeated>",
-			"This Unit gains the [Infected] promotion <upon being killed> <when adjacent to a [Strigoi] unit>",
-			"This Unit gains the [Infected] promotion <upon being killed> <when adjacent to a [Ubir] unit>"]
+        "uniques": [	"Can transform to [Thrall] <upon being defeated>"]
 	},
       	{  
 	"name": "Militia",
         "movementType": "Land",
-        "uniques": [	"Can transform to [Thrall] <upon being defeated>",
-			"This Unit gains the [Infected] promotion <upon being killed> <when adjacent to a [Strigoi] unit>",
-			"This Unit gains the [Infected] promotion <upon being killed> <when adjacent to a [Ubir] unit>"]
+        "uniques": [	"Can transform to [Thrall] <upon being defeated>"]
 	},
       	{  
 	"name": "Thrall",
