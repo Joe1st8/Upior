@@ -161,7 +161,7 @@
 				"Eliminates combat penalty for attacking across a coast",
 				"May travel on Water tiles without embarking",
 				"Can enter ice tiles",
-				"[+1 Sight]"],
+				"[+1] Sight"],
 		"unitTypes": ["Strigoi"],
 	},
 	{
@@ -174,7 +174,7 @@
 	{
 		"name": "Shadow II",
 		"prerequisites": ["Shadow I"],
-		"uniques": [	 "Can move after attack"],
+		"uniques": [	 "Can move after attacking"],
 		"unitTypes": ["Strigoi"],
 	},
 	{
