@@ -189,35 +189,34 @@
 	},
 	{
 		"name": "Mage II",
-		"prerequisites": ["Mage I"],
+		"prerequisites": ["Mage I","Range I"],
 		"uniques": [	"[+10]% Strength <vs [Ranged] units> <when attacking>",
 				"[+10]% Strength <vs [Melee] units> <when attacking>"],
 		"unitTypes": ["Ubir"]
 	},
 	{
 		"name": "Mage III",
-		"prerequisites": ["Mage II"],
+		"prerequisites": ["Mage II","Range II"],
 		"uniques": [	"[+10]% Strength <vs [Ranged] units> <when attacking>",
 				"[+10]% Strength <vs [Melee] units> <when attacking>"],
 		"unitTypes": ["Ubir"]
 	},
 	{
 		"name": "Range I",
-		"prerequisites": ["Mage III"],
+		"prerequisites": ["Mage I"],
 		"uniques": [	"[+1] Range"],
 		"unitTypes": ["Ubir"]
 	}	
 	{
 		"name": "Range II",
-		"prerequisites": ["Range I"],
+		"prerequisites": ["Range I","Mage II"],
 		"uniques": [	"[+1] Range"],
 		"unitTypes": ["Ubir"]
 	}		
 	{
 		"name": "Range III",
-		"prerequisites": ["Range II"],
+		"prerequisites": ["Range II","Mage III"],
 		"uniques": [	"Ranged attacks may be performed over obstacles"],
 		"unitTypes": ["Ubir"]
 	}	
-
 ]
