@@ -58,6 +58,7 @@
 		"strength": 6,
 		"cost": 30,
 		"uniques": ["Never appears as a Barbarian unit","Unbuildable","Can build [Land] improvements on tiles"],
+		"promotions": ["Conscript"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "A serf called up to fight for their master using improvised weapons."}]
 	},
@@ -69,6 +70,7 @@
 		"strength": 8,
 		"cost": 40,
 		"uniques": ["Never appears as a Barbarian unit","Unbuildable","Can build [Land] improvements on tiles"],
+		"promotions": ["Militia"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "A conscript with rudimentary, but frequent training and basic, but professional weapons."}]	
 	},
@@ -80,6 +82,7 @@
 		"strength": 8,
 		"cost": 80,
 		"uniques": ["Never appears as a Barbarian unit","Unbuildable","Uncapturable"],
+		"promotions": ["Thrall"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "Thralls are mortals enchanted to do the bidding of their Strigoi masters, hoping for a chance at immortality."}]
 	},
