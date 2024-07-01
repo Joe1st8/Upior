@@ -2,7 +2,7 @@
 	{
         "name": "Land",
         "movementType": "Land"
-        "uniques": [	"This Unit gains the [Infected] promotion <upon losing at least [1] HP in a single attack> <vs [Strigoi] units>"]
+        "uniques": [	"Can transform to [Thrall] <upon losing at least [1] HP in a single attack> <vs [Strigoi] units>"]
 	},
 	
 	// Upiór
