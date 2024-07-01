@@ -122,7 +122,8 @@
 	{
 		"name": "Flight I",
 		"prerequisites": ["Speed I"],
-		"uniques": [	"Ignores terrain cost",
+		"uniques": [	"Ignores terrain cost",,
+				"Can see invisible [Military] units"
 				"[+1] Sight"],
 		"unitTypes": ["Strigoi"]
 	},	
@@ -147,7 +148,7 @@
 	{
 		"name": "Shadow I",
 		"prerequisites": ["Flight III"],
-		"uniques": [	 "Can see invisible [Military] units"],
+		"uniques": [	"May enter foreign tiles without open borders"],
 		"unitTypes": ["Strigoi"],
 	},
 	{
