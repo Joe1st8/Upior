@@ -2,8 +2,8 @@
 	{
         "name": "Civilian",
         "movementType": "Land"
-        "uniques": [	"This Unit gains the [Infected] promotion <upon being defeated> <vs [Strigoi] units>",
-			"This Unit gains the [Infected] promotion <upon being defeated> <vs [Ubir] units>"]
+        "uniques": [	"This Unit gains the [Infected] promotion <upon being killed> <vs [Strigoi] units>",
+			"This Unit gains the [Infected] promotion <upon being killed> <vs [Ubir] units>"]
 	},
 	{
         "name": "Sword",
