@@ -1,62 +1,6 @@
 [
 	{
-        "name": "Civilian",
-        "movementType": "Land"
-        "uniques": [	"Can transform to [Thrall] <upon being defeated>",
-			"This Unit gains the [Infected] promotion <upon being killed> <vs [Strigoi] units>",
-			"This Unit gains the [Infected] promotion <upon being killed> <vs [Ubir] units>"]
-	},
-	{
-        "name": "Sword",
-        "movementType": "Land"
-        "uniques": [	"Can transform to [Thrall] <upon being defeated>",
-			"This Unit gains the [Infected] promotion <upon being killed> <vs [Strigoi] units>",
-			"This Unit gains the [Infected] promotion <upon being killed> <vs [Ubir] units>"]
-	},
-	{
-        "name": "Gunpowder",
-        "movementType": "Land"
-        "uniques": [	"Can transform to [Thrall] <upon being defeated>",
-			"This Unit gains the [Infected] promotion <upon being killed> <vs [Strigoi] units>",
-			"This Unit gains the [Infected] promotion <upon being killed> <vs [Ubir] units>"]
-	},
-	{
-        "name": "Archery",
-        "movementType": "Land"
-        "uniques": [	"Can transform to [Thrall] <upon being defeated>",
-			"This Unit gains the [Infected] promotion <upon being killed> <vs [Strigoi] units>",
-			"This Unit gains the [Infected] promotion <upon being killed> <vs [Ubir] units>"]
-	},
-	{
-        "name": "Ranged Gunpowder",
-        "movementType": "Land"
-        "uniques": [	"Can transform to [Thrall] <upon being defeated>",
-			"This Unit gains the [Infected] promotion <upon being killed> <vs [Strigoi] units>",
-			"This Unit gains the [Infected] promotion <upon being killed> <vs [Ubir] units>"]
- 	},
-	{
-        "name": "Scout",
-        "movementType": "Land"
-        "uniques": [	"Can transform to [Thrall] <upon being defeated>",
-			"This Unit gains the [Infected] promotion <upon being killed> <vs [Strigoi] units>",
-			"This Unit gains the [Infected] promotion <upon being killed> <vs [Ubir] units>"]
-	},
-	{
-        "name": "Mounted",
-        "movementType": "Land"
-        "uniques": [	"Can transform to [Thrall] <upon being defeated>",
-			"This Unit gains the [Infected] promotion <upon being killed> <vs [Strigoi] units>",
-			"This Unit gains the [Infected] promotion <upon being killed> <vs [Ubir] units>"]
-	},
-	{
-        "name": "Armored",
-        "movementType": "Land"
-        "uniques": [	"Can transform to [Thrall] <upon being defeated>",
-			"This Unit gains the [Infected] promotion <upon being killed> <vs [Strigoi] units>",
-			"This Unit gains the [Infected] promotion <upon being killed> <vs [Ubir] units>"]
-	},
-	{
-        "name": "Siege",
+        "name": "Land",
         "movementType": "Land"
         "uniques": [	"Can transform to [Thrall] <upon being defeated>",
 			"This Unit gains the [Infected] promotion <upon being killed> <vs [Strigoi] units>",
