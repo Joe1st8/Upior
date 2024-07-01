@@ -1,5 +1,5 @@
 [
-	/* Ancient Era */
+	// Upiór
 	{		
 		"name": "Bat",
 		"unitType": "Scout",
@@ -10,10 +10,10 @@
 		"cost": 25,
 		"uniques": [	"Never appears as a Barbarian unit",
 				"Ignores terrain cost",
+				"Invisible to non-adjacent units",
 				"Can pass through impassable tiles",
 				"May travel on Water tiles without embarking",
-				"Cannot enter ocean tiles",
-				"Invisible to non-adjacent units"],
+				"Cannot enter ocean tiles"],
 		"upgradesTo": "Giant bat"
 	},
 	{	
@@ -23,7 +23,10 @@
 		"movement": 3,
 		"strength": 4,
 		"cost": 40,
-		"uniques": ["Never appears as a Barbarian unit","Unbuildable","Ignores terrain cost","Can pass through impassable tiles"],
+		"uniques": [	"Never appears as a Barbarian unit",
+				"Unbuildable",
+				"Ignores terrain cost",
+				"Can pass through impassable tiles"],
 		"attackSound": "nonmetalhit"
 	},
 	{
