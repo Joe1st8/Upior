@@ -2,6 +2,7 @@
 	{
         "name": "Land",
         "movementType": "Land"
+	"promotions": ["Infected"],
 	},
 	
 	// Upiór
