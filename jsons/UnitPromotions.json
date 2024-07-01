@@ -61,7 +61,7 @@
 		"uniques": [	"This Unit loses the [Rites of ascension] promotion",				
 				"[+50]% Strength <upon entering a new era>",
 				"Heals [5] damage if it kills a unit",
-				"[+5] HP when healing <in [Friendly Land]>",
+				"[+5] HP when healing <in [Friendly Land] tiles>",
 				"[-100]% maintenance costs",
 				"[-50]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
 				"[-50]% Strength <when fighting in [Foreign Land] tiles> <when defending>"],
@@ -87,13 +87,13 @@
 	{    	
 		"name": "Resilience I",
 		"prerequisites": ["Bloodsucker I"],
-		"uniques": [	"[+5] HP when healing <in [Friendly Land]>"],
+		"uniques": [	"[+5] HP when healing <in [Friendly Land] tiles>"],
 		"unitTypes": ["Strigoi"]
 	},	
 	{
 		"name": "Resilience II",
 		"prerequisites": ["Resilience I","Bloodsucker II"],
-		"uniques": [	"[+10] HP when healing <in [Friendly Land]>"],
+		"uniques": [	"[+10] HP when healing <in [Friendly Land] tiles>"],
 		"unitTypes": ["Strigoi"]
 	},	
 	{	
@@ -205,7 +205,7 @@
 	{
 		"name": "Ubir",
 		"uniques": [	"This Unit loses the [Rites of ascension] promotion",
-				"[+10] HP when healing <in [Friendly Land]>",
+				"[+10] HP when healing <in [Friendly Land] tiles>",
 				"[+25]% Strength <upon entering a new era>",
 				"[-90]% Strength <vs [Melee] units> <when defending>",
 				"[-100]% maintenance costs",
