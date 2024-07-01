@@ -62,7 +62,6 @@
 				"[+50]% Strength <upon entering a new era>",
 				"Heals [5] damage if it kills a unit",
 				"[+5] HP when healing <in [Friendly Land]>",
-			<upon defeating a [Wounded] unit>
 				"[-100]% maintenance costs",
 				"[-50]% Strength <when fighting in [Foreign Land] tiles> <when attacking>",
 				"[-50]% Strength <when fighting in [Foreign Land] tiles> <when defending>"],
