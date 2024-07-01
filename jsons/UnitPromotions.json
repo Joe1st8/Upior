@@ -70,6 +70,7 @@
 	},
 	{
 		"name": "Bloodsucker I",
+		"prerequisites": ["Strigoi"],
 		"uniques": [	"Heals [10] damage if it kills a unit"],
 		"unitTypes": ["Strigoi"]
 	},
@@ -87,6 +88,7 @@
 	},
 	{    	
 		"name": "Resilience I",
+		"prerequisites": ["Strigoi"],
 		"prerequisites": ["Bloodsucker I"],
 		"uniques": [	"[+5] HP when healing <in [Friendly Land] tiles>"],
 		"unitTypes": ["Strigoi"]
@@ -105,6 +107,7 @@
 	},	
 	{	
 		"name": "Enthrall I",
+		"prerequisites": ["Strigoi"],
 		"uniques": [	"May capture killed [Military] units <with [25]% chance>"],
 		"unitTypes": ["Strigoi"]
 	},	
@@ -122,6 +125,7 @@
 	},	
 	{	
 		"name": "Speed I",
+		"prerequisites": ["Strigoi"],
 		"uniques": [	"[+1] Movement"],
 		"unitTypes": ["Strigoi"]
 	},	
@@ -141,6 +145,7 @@
 	},	
 	{
 		"name": "Flight I",
+		"prerequisites": ["Strigoi"],
 		"prerequisites": ["Speed I"],
 		"uniques": [	"Ignores terrain cost",
 				"Can see invisible [Military] units",
@@ -186,6 +191,7 @@
 	},
 	{
 		"name": "Terrifying aura I",
+		"prerequisites": ["Strigoi"],
 		"uniques": [	"[-10]% Strength for enemy [All] units in adjacent [All] tiles"],
 		"unitTypes": ["Strigoi"]
 	},
@@ -216,6 +222,7 @@
 	},
 	{
 		"name": "Mage I",
+		"prerequisites": ["Ubir"],
 		"uniques": [	"[+10]% Strength <vs [Ranged] units> <when attacking>",
 				"[+10]% Strength <vs [Melee] units> <when attacking>"],
 		"unitTypes": ["Ubir"]
@@ -236,6 +243,7 @@
 	},
 	{
 		"name": "Range I",
+		"prerequisites": ["Strigoi"],
 		"prerequisites": ["Mage I"],
 		"uniques": [	"[+1] Range"],
 		"unitTypes": ["Ubir"]
@@ -254,6 +262,7 @@
 	},	
 	{
 		"name": "Evade I",
+		"prerequisites": ["Strigoi"],
 		"uniques": [	"Withdraws before melee combat <with [25]% chance>"],
 		"unitTypes": ["Ubir"]
 	},	
