@@ -2,7 +2,6 @@
 	{
         "name": "Land",
         "movementType": "Land"
-        "uniques": [	"Can transform to [Thrall] <upon losing at least [1] HP in a single attack> <vs [Strigoi] units>"]
 	},
 	
 	// Upiór
@@ -14,12 +13,12 @@
       	{  
 	"name": "Conscript",
         "movementType": "Land",
-        "uniques": [	"Can transform to [Thrall] <upon being defeated>"]
+	"promotions": ["Infected"],
 	},
       	{  
 	"name": "Militia",
         "movementType": "Land",
-        "uniques": [	"Can transform to [Thrall] <upon being defeated>"]
+	"promotions": ["Infected"],
 	},
       	{  
 	"name": "Thrall",
