@@ -269,13 +269,13 @@
 	{
 		"name": "Evade II",
 		"prerequisites": ["Evade I"],
-		"uniques": [	"Withdraws before melee combat <with [25]% chance>"],
+		"uniques": [	"Withdraws before melee combat <with [35]% chance>"],
 		"unitTypes": ["Ubir"]
 	},	
 	{
 		"name": "Evade III",
 		"prerequisites": ["Evade II"],
-		"uniques": [	"Withdraws before melee combat <with [25]% chance>"],
+		"uniques": [	"Withdraws before melee combat <with [45]% chance>"],
 		"unitTypes": ["Ubir"]
 	}		
 ]
