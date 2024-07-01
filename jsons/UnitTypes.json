@@ -1,25 +1,21 @@
 [
-	{
-        "name": "Land",
-        "movementType": "Land"
-	"promotions": ["Infected"],
-	},
 	
 	// Upiór
-      	{  
+	{  
 	"name": "Serf",
         "movementType": "Land",
-	"promotions": ["Infected"],
 	},
       	{  
 	"name": "Conscript",
         "movementType": "Land",
-	"promotions": ["Infected"],
 	},
       	{  
 	"name": "Militia",
         "movementType": "Land",
-	"promotions": ["Infected"],
+	},
+	{
+        "name": "Bony",
+        "movementType": "Land"
 	},
       	{  
 	"name": "Thrall",
