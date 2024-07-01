@@ -1,17 +1,5 @@
 [
 	/* Ancient Era */
-	{
-		"name": "Serf",
-		"unitType": "Serf",
-		"uniqueTo": "Upióriç",
-		"replaces": "Worker",
-		"movement": 2,
-		"strength": 4,
-		"cost": 30,
-		"uniques": ["Never appears as a Barbarian unit","Can build [Land] improvements on tiles"],
-		"attackSound": "nonmetalhit",
-		"civilopediaText": [{"text": "Peasant of the ancestral lands, enchanted or forced to work for the lord of the land, can only defend themself with the farming tools in their hands."}]
-	},
 	{		
 		"name": "Bat",
 		"unitType": "Scout",
@@ -46,14 +34,25 @@
 		"civilopediaText": [{"text": "Raised skeletons are quite difficult to hit at range."}]
 	},
 	{
-		"name": "Conscript",
-		"unitType": "Sword",
+		"name": "Serf",
+		"unitType": "Serf",
 		"uniqueTo": "Upióriç",
+		"replaces": "Worker",
 		"movement": 2,
 		"strength": 4,
 		"cost": 20,
-		"uniques": ["Never appears as a Barbarian unit","Unbuildable"],
-		"upgradesTo": "Militia",
+		"uniques": ["Never appears as a Barbarian unit","Can build [Land] improvements on tiles"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [{"text": "Peasant of the ancestral lands, enchanted or forced to work for the lord of the land, can only defend themself with the farming tools in their hands."}]
+	},
+	{
+		"name": "Conscript",
+		"unitType": "Conscript",
+		"uniqueTo": "Upióriç",
+		"movement": 2,
+		"strength": 6,
+		"cost": 30,
+		"uniques": ["Never appears as a Barbarian unit","Unbuildable","Can build [Land] improvements on tiles"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "A serf called up to fight for their master using improvised weapons."}]
 	},
@@ -64,8 +63,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"uniques": ["Never appears as a Barbarian unit","Unbuildable"],
-		"upgradesTo": "Swordsman",
+		"uniques": ["Never appears as a Barbarian unit","Unbuildable","Can build [Land] improvements on tiles"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [{"text": "A conscript with rudimentary, but frequent training and basic, but professional weapons."}]	
 	},
