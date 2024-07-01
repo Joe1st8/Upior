@@ -17,6 +17,10 @@
         "name": "Bony",
         "movementType": "Land"
 	},
+	{
+        "name": "Bat",
+        "movementType": "Land"
+	},
       	{  
 	"name": "Thrall",
         "movementType": "Land",
