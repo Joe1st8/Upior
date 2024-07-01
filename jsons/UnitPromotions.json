@@ -140,6 +140,7 @@
 		"uniques": [	"Can pass through impassable tiles",
 				"Eliminates combat penalty for attacking across a coast",
 				"May travel on Water tiles without embarking",
+				"Can enter ice tiles",
 				"[+1 Sight]"],
 		"unitTypes": ["Strigoi"],
 	},
