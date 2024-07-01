@@ -9,7 +9,7 @@
       	{  
 	"name": "Serf",
         "movementType": "Land",
-        "uniques": [	"Can transform to [Thrall] <upon being defeated>"]
+        "uniques": [	"Can transform to [Thrall] <upon being killed>"]
 	},
       	{  
 	"name": "Conscript",
