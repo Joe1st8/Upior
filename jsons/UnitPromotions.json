@@ -212,9 +212,10 @@
 		"prerequisites": ["Range I"],
 		"uniques": [	"[+1] Range"],
 		"unitTypes": ["Ubir"]
-	}		{
-		"name": "Range III",Range II
-		"prerequisites": ["Mage III"],
+	}		
+	{
+		"name": "Range III",
+		"prerequisites": ["Range II"],
 		"uniques": [	"Ranged attacks may be performed over obstacles"],
 		"unitTypes": ["Ubir"]
 	}	
