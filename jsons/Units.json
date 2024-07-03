@@ -155,7 +155,7 @@
 		"strength": 5,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit", "This unit gains the [Infected] promotion <when defending> <vs [Strigoi] units>"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -167,7 +167,7 @@
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects", "This unit gains the [Infected] promotion <when defending> <vs [Strigoi] units>"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
@@ -182,6 +182,7 @@
 		"strength": 8,
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
+		"uniques" : ["This unit gains the [Infected] promotion <when defending> <vs [Strigoi] units>"]
 		"promotions": ["Haka War Dance"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
@@ -195,6 +196,7 @@
 		"strength": 8,
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
+		"uniques" : ["This unit gains the [Infected] promotion <when defending> <vs [Strigoi] units>"]
 		"promotions": ["[Jaguar] ability","Woodsman"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
@@ -208,6 +210,7 @@
 		"strength": 8,
 		"cost": 20,
 		"obsoleteTech": "Metal Casting",
+		"uniques" : ["This unit gains the [Infected] promotion <when defending> <vs [Strigoi] units>"]
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
